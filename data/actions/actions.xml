@@ -164,6 +164,10 @@
 	<!-- Tools -->
 	<action itemid="7731"  script="mods/tools/elvenhair.lua"/>
 
+	<action itemid="13670" script="mods/other/randomitems.lua" />
+	<action itemid="15572" script="mods/other/randomitems.lua" />
+	<action itemid="18215" script="mods/other/randomitems.lua" />
+
 
 <!-- AQUI TERMINAN LOS MODS -->
 	<!-- Enchanting -->

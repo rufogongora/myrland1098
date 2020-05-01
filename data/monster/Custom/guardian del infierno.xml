@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Guardian del infierno" nameDescription="Gran demon" race="fire" experience="10000" speed="275" manacost="10000">
+<monster name="Guardian del Infierno" nameDescription="guardian del infierno" race="fire" experience="10000" speed="275" manacost="10000">
   <health now="200000" max="200000"/>
-  <look type="35" corpse="5995"/>
+  <look type="856" corpse="25440"/>
   <targetchange interval="5000" chance="8"/>
   <strategy attack="90" defense="10"/>
   <flags>
