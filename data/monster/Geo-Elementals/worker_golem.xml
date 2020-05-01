@@ -57,6 +57,8 @@
 		<item name="war hammer" chance="920" />
 		<item name="iron ore" chance="1001" />
 		<item name="bonebreaker" chance="130" />
+		<item name="golem wrench" chance="130" />
+
 		<item name="berserk potion" chance="820" />
 		<item name="spiked squelcher" chance="1003" />
 		<item name="great mana potion" chance="1470" />

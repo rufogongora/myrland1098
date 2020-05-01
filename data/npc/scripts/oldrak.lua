@@ -37,7 +37,7 @@ function creatureSayCallback(cid, type, msg)
         elseif msgcontains(msg, 'yes') and talk_state == 2 then
             if getPlayerStorageValue(cid, 35700) == 1 then
                 npcHandler:say('Good job!', cid)
-                doPlayerSetStorageValue(cid, 35700, 2)
+                setPlayerStorageValue(cid, 35700, 2)
                 talk_state = 0
             else
                 npcHandler:say('Go defeat the demon oak first.', cid)

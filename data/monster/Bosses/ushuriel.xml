@@ -94,6 +94,7 @@
 		<item name="demonic essence" chance="100000" />
 		<item id="7385" chance="10000" /><!-- crimson sword -->
 		<item name="thaian sword" chance="25000" />
+		<item name="glow wine" chance="25000" />
 		<item name="dragon slayer" chance="8333" />
 		<item name="runed sword" chance="6666" />
 		<item name="great mana potion" chance="20000" />

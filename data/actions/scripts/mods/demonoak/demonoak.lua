@@ -51,7 +51,7 @@ local blockingTree =
 	if blockingTree[itemEx.itemid] and itemEx.uid == blockingTree[itemEx.itemid][1] then
 
 		local tree = toPosition
-		if isInRange(tree, areaPosition[1], areaPosition[2]) then
+		if tree:isInRange(areaPosition[1], areaPosition[2]) then
 			print("[Warning - Error::Demon Oak] Dead tree position is inside the quest area positions.\nDead tree position (x: " .. tree.x .. ", y: " .. tree.y .. ", z: " .. tree.z .. ")\nNorth-West area position (x: " .. areaPosition[1].x .. ", y: " .. areaPosition[1].y .. ", z: " .. areaPosition[1].z .. ")\nSouth-West area position (x: " .. areaPosition[2].x .. ", y: " .. areaPosition[2].y .. ", z: " .. areaPosition[2].z .. ")\nScript will not work correctly, please fix it.")
 			doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "Something is wrong, please contact a gamemaster.")
 			return false
@@ -72,9 +72,9 @@ local blockingTree =
 		end
 
 		if onePerQuest then
-		local players = getPlayersOnline()
+		local players = Game.getPlayers()
 			for _, pid in ipairs(players) do
-			if isInRange(getCreaturePosition(pid), areaPosition[1], areaPosition[2]) then
+			if getCreaturePosition(pid):isInRange(areaPosition[1], areaPosition[2]) then
 				doPlayerSendCancel(cid, "Wait until " .. getCreatureName(pid) .. " finish the quest.")
 				return true
 			end
@@ -84,19 +84,19 @@ local blockingTree =
 		doTransformItem(itemEx.uid, blockingTree[itemEx.itemid][2])
 		doSendMagicEffect(toPosition, CONST_ME_POFF)
 		doMoveCreature(cid, SOUTH)
-		doPlayerSetStorageValue(cid, storages.cutTree, 1)
+		cid:setStorageValue(storages.cutTree, 1)
 		return true
 
 	elseif isInArray(demonOak, itemEx.itemid) then
 
 		local get = getPlayerStorageValue(cid, itemEx.itemid)
 		if get == -1 then
-			doPlayerSetStorageValue(cid, itemEx.itemid, 1)
+			cid:setStorageValue(itemEx.itemid, 1)
 		end
 
 		if(getPlayerStorageValue(cid, 8288) == 12 and getPlayerStorageValue(cid, 8289) == 12 and getPlayerStorageValue(cid, 8290) == 12 and getPlayerStorageValue(cid, 8291) == 12) then
 			doTeleportThing(cid, positions.kick)
-			doPlayerSetStorageValue(cid, storages.done, 1)
+			cid:setStorageValue(storages.done, 1)
 			return true
 		end
 
@@ -106,17 +106,17 @@ local blockingTree =
 		end
 
 		if(math.random(100) <= 1) then
-			doPlayerSetStorageValue(cid, itemEx.itemid, 12)
+			cid:setStorageValue(itemEx.itemid, 12)
 			return true
 		end
 
 
 		if summons[get] then
 		for i = 1, #summons[get] do
-			doCreateMonster(summons[get][i], positions.summon[i])
+			Game.createMonster(summons[get][i], positions.summon[i])
 		end
 			doSendMagicEffect(toPosition, CONST_ME_DRAWBLOOD)
-			doPlayerSetStorageValue(cid, itemEx.itemid, get + 1)
+			cid:setStorageValue(itemEx.itemid, get + 1)
 			if math.random(100) >= 50 then
 				doTargetCombatHealth(0, cid, COMBAT_EARTHDAMAGE, -270, -310, CONST_ME_BIGPLANTS)
 			end

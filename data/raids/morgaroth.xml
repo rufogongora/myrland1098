@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+	<!-- Message broadcast -->
+	<!-- Broadcast types: warning, event, default, description, smallstatus, blueconsole, redconsole -->
+	<announce delay="1000" type="warning" message="Los monjes de merania advierten del retorno del maligno!" />
+	<announce delay="25000" type="warning" message="Morgaroth ataca de nuevo!" />
+
+
+	<!-- Single spawns -->
+	<singlespawn delay="15000" name="Morgaroth" x="704" y="676" z="10" />
+
+</raid>

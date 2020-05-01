@@ -73,6 +73,7 @@
 		<item name="sniper arrow" countmax="4" chance="11400" />
 		<item name="great health potion" chance="720" />
 		<item name="small notebook" chance="930" />
+		<item name="sugar oat" chance="930" />
 		<item name="scroll of heroic deeds" chance="5000" />
 	</loot>
 </monster>

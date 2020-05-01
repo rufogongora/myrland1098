@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Satan" nameDescription="Satan" race="undead" experience="35000" speed="700" manacost="100">
   <health now="700000" max="700000"/>
-  <look type="130" head="78" body="76" legs="94" feet="115" addons="3" corpse="6080"/>
-  <targetchange interval="5000" chance="8"/>
+  <look type="591" head="78" body="76" legs="94" feet="115" addons="3" corpse="22562"/>
+  <targetchange interval="3500" chance="8"/>
   <strategy attack="100" defense="0"/>
   <flags>
     <flag summonable="0"/>
@@ -18,8 +18,8 @@
     <flag runonhealth="0"/>
   </flags>
   <attacks>
-    <attack name="melee" interval="1000" min="-800" max="-1825"/>
-    <attack name="lifedrain" interval="2000" chance="19" range="1" min="-325" max="-1625">
+    <attack name="melee" interval="1000" min="-800" max="-2325"/>
+    <attack name="lifedrain" interval="2000" chance="19" range="1" min="-525" max="-1625">
       <attribute key="areaEffect" value="redshimmer"/>
     </attack>
     <attack name="speed" interval="1000" chance="8" radius="6" target="0" speedchange="-600" duration="60000">
@@ -70,7 +70,7 @@
     <item id="2127" countmax="1" chance="200"/>
     <item id="2470" chance="100000"/>
 
-    <item id="2195" chance="100000">
+    <item name="iron loadstone" chance="100000"/>
       
         <item id="2148" countmax="4" chance1="2500" chancemax="0"/>
         <item id="2032" chance="10000"/>
@@ -85,7 +85,6 @@
         <item id="7417" chance="1428"/>
         <item id="7454" chance="1428"/>
         <item id="2646" chance="1428"/>
-      
-    </item>
+
   </loot>
 </monster>

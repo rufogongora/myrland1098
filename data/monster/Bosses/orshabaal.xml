@@ -90,6 +90,7 @@
 		<item name="orb" chance="6666" />
 		<item name="life crystal" chance="12500" />
 		<item name="mind stone" chance="20000" />
+		<item name="decorative ribbon" chance="12500" />
 		<item name="boots of haste" chance="12500" />
 		<item name="protection amulet" chance="20000" />
 		<item name="ring of healing" chance="33333" />
