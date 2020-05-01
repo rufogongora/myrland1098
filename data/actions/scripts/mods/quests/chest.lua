@@ -165,8 +165,8 @@ function onUse(cid, item, frompos, item2, topos)
 		elseif item.uid == 13005 then
 			queststatus = getPlayerStorageValue(cid,13005)
 			if queststatus == -1 then
-				doPlayerSendTextMessage(cid,24,"You have found a a Wand of Defiance.")
-				doPlayerAddItem(cid,18390,1)
+				doPlayerSendTextMessage(cid,24,"You have found a a Wand of Everblazing.")
+				doPlayerAddItem(cid,18409,1)
 				setPlayerStorageValue(cid,13005,1)
 			else
 				doPlayerSendTextMessage(cid,24,"It is empty.")

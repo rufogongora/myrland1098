@@ -45,10 +45,10 @@
     <item id="2480" chance="10000"/>
     <item id="2385" chance="10000"/>
     <item id="1987" chance="100000"> 
-      <inside>
+      
         <item id="2526" chance="10000"/>
         <item id="2386" chance="10000"/> 
-      </inside>
+      
     </item>
   </loot>
 </monster>

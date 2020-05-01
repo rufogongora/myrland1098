@@ -55,7 +55,7 @@
 <item id="2399" chance="3333" countmax="18" />
 <item id="2428" chance="2000" /> 
 <item id="1988" chance="100000" > 
-<inside>
+
 	<item id="2478" chance="3333" />
 	<item id="2165" chance="1333" />
 	<item id="2200" chance="2000" />
@@ -67,7 +67,7 @@
 	<item id="2499" chance="5000" />
 	<item id="2500" chance="700" /> 
 	<item id="2537" chance="500" /> 
-</inside>
+
 </item>
 </loot>
 </monster>
