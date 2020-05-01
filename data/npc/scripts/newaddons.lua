@@ -163,7 +163,7 @@ local outfit_node = keywordHandler:addKeyword({'second demon addon'}, playerBuyA
     outfit_node:addChildKeywordNode(noNode)
  
 
-keywordHandler:addKeyword({'addons'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'I can give you soil guardian , crystal warlord, entrepreneur, insectoid, afflicted, demonhunter, demon, deepling, wayfarer, warmaster, elementalist.'})
+keywordHandler:addKeyword({'addons'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'I can give you soil guardian , crystal warlord, entrepreneur, insectoid, afflicted, demon, deepling, wayfarer, elementalist.'})
 keywordHandler:addKeyword({'help'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'To buy the first addon say \'first NAME addon\', for the second addon say \'second NAME addon\'.'})
  
 npcHandler:addModule(FocusModule:new())
