@@ -7,6 +7,6 @@
 
 
 	<!-- Single spawns -->
-	<singlespawn delay="15000" name="Orshabaal" x="704" y="676" z="10" />
+	<singlespawn delay="15000" name="Morgaroth" x="704" y="676" z="10" />
 
 </raid>
