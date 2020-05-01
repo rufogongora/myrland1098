@@ -116,6 +116,7 @@
 	<action uniqueid="13007" script="mods/quests/chest.lua"/>
 	<action uniqueid="13008" script="mods/quests/chest.lua"/>
 	<action uniqueid="13009" script="mods/quests/chest.lua"/>
+	<action uniqueid="13010" script="mods/quests/chest.lua"/>
 
 
 	<!-- Ungreezelator -->

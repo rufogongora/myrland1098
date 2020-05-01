@@ -82,7 +82,7 @@
 	<item id="1982" chance="1300"/> 
     <item id="2165" chance="2300"/> 
  	<item id="1987" chance="100000"> 
-		<inside>
+		
 		 	<item id="2393" chance="3300"/> 
 		 	<item id="2432" chance="3800"/> 
 			<item id="2214" chance="2222"/> 
@@ -102,7 +102,7 @@
 			<item id="2520" chance="3100"/> 
 			<item id="2418" chance="1500"/> 
 			<item id="2377" chance="6666"/> 
-		</inside>
+		
  	</item>
 </loot>
 </monster>

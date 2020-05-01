@@ -50,13 +50,13 @@
     <item id="2671" countmax="2" chance1="20000" chancemax="0"/> 
     <item id="5875" chance="8000"/> 
     <item id="1987" chance="100000"> 
-      <inside>
+      
         <item id="2456" chance="6666"/> 
         <item id="2544" countmax="15" chance1="10000" chancemax="0"/> 
         <item id="2546" countmax="25" chance1="10000" chancemax="0"/> 
         <item id="5947" chance="2223"/> 
         <item id="2201" chance="2500"/> 
-      </inside>
+      
     </item>
   </loot>
 </monster>
