@@ -71,6 +71,7 @@
 		<voice sentence="THE TRIANGLE OF TERROR WILL RISE!" yell="1" />
 	</voices>
 	<loot>
+		<item name="hunting horn" chance="20000" />
 		<item name="red tome" chance="20000" />
 		<item name="golden mug" chance="16666" />
 		<item name="teddy bear" chance="11111" />

@@ -37,6 +37,8 @@ local addons = {
     { storage = 10006, outfit1 = 139, addon1 = 2, outfit2 = 131, addon2 = 2 }, --second knight hunter
     { storage = 10003, outfit1 = 137, addon1 = 1, outfit2 = 129, addon2 = 1 }, --first hunter hunter
     { storage = 10004, outfit1 = 137, addon1 = 2, outfit2 = 129, addon2 = 2 }, --second hunter hunter
+    { storage = 10051, outfit1 = 335, addon1 = 1, outfit2 = 336, addon2 = 1},
+    { storage = 10052, outfit1 = 335, addon1 = 2, outfit2 = 336, addon2 = 2},
 
     
 }

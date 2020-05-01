@@ -4,4 +4,5 @@
 		<raid name="Testraid" file="testraid.xml" interval2="30" margin="0" />
 		executed on average once every 30 minutes
 	-->
+	<raid name="Feverish" file="feverish.xml" interval2="1440" margin="0" />
 </raids>
