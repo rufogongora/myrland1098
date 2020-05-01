@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<npc name="Evil Durgan" script="knight.lua" race="blood" experience="800" speed="340" team="1">
+ 	<health now="2500" max="2500"/>
+	<mana now="500" max="500"/>
+	<look type="160" head="59" body="59" legs="59" feet="59" corpse="3058"/>
+	<targetchange interval="5000" chance="7"/>
+	<strategy attack="70" defense="30"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+   		<flag canpushitems="1"/>
+		<flag canrespawn="1"/>
+    		<flag respawntime="35"/>
+    		<flag targetdistance="1"/>
+    		<flag runonhealth="250"/>
+
+    		<flag healthticks="1"/>
+    		<flag healthamount="20"/>
+    		<flag manaticks="3"/>
+    		<flag manaamount="20"/>
+  	</flags>
+
+  	<attacks>
+    		<attack name="melee" interval="400" skill="100" attack="45"/>
+    		<attack name="explosion" interval="1000" chance="80" min="-80" max="-135"/>
+    		<attack name="exori" interval="2500" chance="50" min="-190" max="-580"/>
+  	</attacks>
+
+        <defenses armor="40" defense="65">
+    		<defense name="speed" interval="1000" chance="7" speedchange="900" duration="10000">
+      			<attribute key="areaEffect" value="redshimmer"/>
+    		</defense>
+		<defense name="healing" interval="3000" chance="35" min="500" max="800">
+      			<attribute key="areaEffect" value="blueshimmer"/>
+    		</defense>
+  	</defenses>
+
+    	<summons max="2">
+      		<summon name="assassin" interval="4000" chance="50"/>
+    	</summons>
+</npc>

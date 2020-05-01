@@ -1,0 +1,9 @@
+<npc name="Mastermind" script="djinn.lua" walkinterval="4000" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="695" head="0" body="132" legs="114" feet="0" addons="2" />
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Hola |PLAYERNAME|.puedo ofrecerte algunas offertas, tan solo dime {offer} ." />
+		<parameter key="shop_sellable" value="demonrage sword,7382,7000;magic plate armor,2472,80000;golden legs,2470,50000;mastermind shield,2514,50000;focus cape,8871,1000;dragonbone staff,7430,1500;heavy mace,2452,30000;royal helmet,2498,30000;warrior helmet,2475,6000;crusader helmet,2497,7500;crown helmet,2491,4000;devil helmet,2462,2000;golden legs,2470,40000;mystic turban,2663,500;steel boots,2645,25000;boots of haste,2195,30000;dragon scale mail,2492,60000;golden armor,2466,30000;crown armor,2487,15000;knight armor,2476,5000;blue robe,2656,10000;crown legs,2488,12000;knight legs,2477,6000;plate legs,2647,400;demon shield,2520,40000;vampire shield,2534,15000;medusa shield,2536,8000;crown shield,2519,15000;tower shield,2528,8000;guardian shield,2515,2000;beholder shield,2518,1000;dragon shield,2516,4000;giant sword,2393,10000;bright sword,2407,7000;ice rapier,2396,4000;fire sword,2392,4000;serpent sword,2409,1500;spike sword,2383,500;broad sword,2413,800;dragon lance,2414,12000;guardian halberd,2427,8000;fire axe,2432,10000;knight axe,2430,2000;battle axe,2378,100;war hammer,2391,6000;skull staff,2436,6000;dragon hammer,2434,2000;wand of inferno,2187,3000;platinum amulet,2171,3000;" />
+	</parameters>
+</npc>

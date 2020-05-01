@@ -1,0 +1,7 @@
+<npc name="Draconio" script="daraman.lua" walkinterval="4000" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+        <look type="278" head="114" body="1" legs="1" feet="76" addons="3" corpse="2212"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I bet you would like to enter to my {mansion}?" />		
+	</parameters>
+</npc>

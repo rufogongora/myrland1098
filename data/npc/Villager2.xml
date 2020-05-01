@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<npc name="Priscilla" script="villager2.lua" walkinterval="4000" floorchange="0" access="3">
+ 	<look type="252" head="95" body="0" legs="114" feet="0" addons="3" />
+	<parameters>
+	<parameter key="message_greet" value="Mi poor seal!" />
+	<parameter key="message_farewell" value="Mi seal!." />
+	</parameters>
+</npc>

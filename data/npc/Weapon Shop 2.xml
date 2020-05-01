@@ -1,0 +1,10 @@
+<npc name="Martha" script="weapon.lua" walkinterval="4000" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="139" head="132" body="79" legs="97" feet="132" addons="2" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I buy weapons." />
+		<parameter key="shop_sellable" value="sword,2376,50;
+blue legs,7730,15000;blue robe,2656,15000;lightning legs,7895,15000;lightning robe,7898,15000;glacier kilt,7896,15000;magma coat,7899,20000;magma legs,7894,10000,." />
+	</parameters>
+</npc>

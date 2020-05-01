@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<npc name="Zeride" access="5" lookdir="1" walkinterval="6500">
+	<health now="1000" max="1000"/>
+<look type="100" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Eit tss tu |PLAYERNAME|. jiji te gusta mi {offer}?." />
+		<parameter key="shop_buyable" value="
+ultimate healing rune,2273,375,3;
+sudden death,2268,625,3;
+mana potion,7620,150;
+strong mana potion,7589,280;
+great mana potion,7590,320;
+great spirit potion,8472,290;
+health potion,7618,145;
+strong health potion,7588,210;
+greath health potion,7591,390;
+ultimate health potion,8473,510;
+blank rune,2260,40;
+"/>
+
+<parameter key="shop_sellable" value="
+empty potion flask,7636,5;
+empty strong potion flask,7634,8;
+empty great potion flask,7635,10;
+"/>
+</parameters>
+</npc>

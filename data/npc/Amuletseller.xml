@@ -1,0 +1,10 @@
+<npc name="Simon" script="amulet.lua" walkinterval="2000" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="134" head="114" body="113" legs="113" feet="113" addons="3" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I sell amulet of loss,time ring,energy ring,stealth ring,life ring, ring of healing, club ring ,sword ring and axe ring." />
+		<parameter key="shop_buyable" value="vial,2006,10;flask,2006,10" />
+		<parameter key="shop_buyable" value="amulet of loss,2173,100000;time ring,2169,2000;energy ring,2167,2000;stealth ring,2165,2000;life ring,2168,2000;ring of healing,2214,4000;axe ring,2208,200;club ring,2209,200;sword ring,2207,200" />
+	</parameters>
+</npc>

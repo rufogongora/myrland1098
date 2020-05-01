@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Boy" script="firewalker.lua" walkinterval="4000" maglevel="1">
+	<health now="150" max="150"/>
+        <look type="145" head="114" body="1" legs="1" feet="76" addons="1" corpse="2212"/>
+	<parameters>
+	<parameter key="message_greet" value="Hola |PLAYERNAME|, yo me especializo en otro tipo de {botas}" />
+	<parameter key="message_farewell" value="OK bye" />
+	</parameters>
+</npc>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<npc name="Omar" script="boatcarlin.lua" access="3">
+ 	<look type="129" head="114" body="119" legs="114" feet="114" addons="3" corpse="2212"/>
+	<parameters>
+	<parameter key="message_greet" value="Hello |PLAYERNAME|, I can take you to Kemenus, Magical Town, Deromin, Anshara, Envior, Karmia, Mer Jungle, Fynn, Iquanus, Jorvik, Samaransa Desert and Misidia" />
+	<parameter key="message_farewell" value="Cya Later." />
+	<parameter key="module_travel" value="1" />
+	<parameter key="travel_destinations" value="kemenus,382,129,7,0,true;magical town,397,1379,7,0,true;deromin,558,243,7,0,true;anshara,694,435,7,0,true;envior,152,637,7,0,true;karmia,259,830,7,0,true;mer jungle,1037,1179,7,0,true;fynn,951,1011,7,0,true;iquanus,949,1465,7,0,true;jorvik,974,758,7,0,true;samaransa desert,347,1296,7,0,true;misidia,1064,323,7,0,true" />
+	</parameters>
+</npc>

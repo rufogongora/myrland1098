@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<npc name="Blue Beard" script="boatedron.lua" access="3">
+ 	<look type="153" head="123" body="0" legs="0" feet="123" addons="3" />
+	<parameters>
+	<parameter key="message_greet" value="Hello |PLAYERNAME|, I can take you to Venore, Thais, Carlin, Ab dendriel, Port Hope, Ankrahmun and Cormaya" />
+	<parameter key="message_farewell" value="Cya Later." />
+	<parameter key="module_travel" value="1" />
+	<parameter key="travel_destinations" value="arkania,76,36,7,0,true;mer jungle,256,228,7,0,true;mer jungle east,291,230,6,0,true;mer jungle south,644,464,6,0,true;anshara,406,206,7,0,true;port hope,1237,1264,6,0,true;cormaya,578,1424,6,0,true" />
+	</parameters>
+</npc>

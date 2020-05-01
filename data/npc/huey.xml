@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<npc name="Huey" script="boatcorma.lua" access="3" walkinterval="0">
+ 	<look type="131" head="114" body="119" legs="1" feet="150" addon1="1" addon2="1" />
+	<parameters>
+	<parameter key="message_greet" value="Hola |PLAYERNAME|, por 480 gps puedes viajar a {syracuse} o a {merania}." />
+	<parameter key="message_farewell" value="Adios nab." />
+	<parameter key="module_travel" value="1" />
+	<parameter key="travel_destinations" value="merania,547,752,7,480,true;syracuse,663,724,7,480,true" />
+	</parameters>
+</npc>

@@ -1,0 +1,8 @@
+<npc name="Ripley" script="llave.lua" autowalk="25" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="134" head="114" body="123" legs="43" feet="53" addons="1" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Hola! Cuando fui a los dragones encontre esta llave, en realidad no se para que sirva..." />
+	</parameters>
+</npc>

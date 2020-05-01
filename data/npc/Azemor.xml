@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<npc name="DarkKonia" script="seller.lua" walkinterval="2000" floorchange="0" access="5" level="1" maglevel="1">
+ 	<look type="266" head="132" body="0" legs="114" feet="0" addons="0" />
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I sell AOL (50k), Obsidian knife (10k), Blessed Wooden Stake (20k)." />
+		<parameter key="shop_buyable" value="aol,2173,50000;obsidian knife,5908,10000;blessed wooden stake,5942,20000" />
+	</parameters>
+</npc>

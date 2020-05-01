@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ted" script="save.lua" autowalk="1" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="143" head="114" body="114" legs="0" feet="0" addons="2"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|."/>
+	</parameters>
+</npc>

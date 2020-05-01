@@ -1,0 +1,10 @@
+<npc name="Shatim" script="seller.lua" walkinterval="4000" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="134" head="114" body="84" legs="32" feet="15" addons="2" corpse="2212"/>
+<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Hola |PLAYERNAME|. yo vendo items sencillos, quieres verlos? tan solo ofreceme un {trade}! ." />
+		<parameter key="shop_sellable" value="flask,7636,10;great,7635,10;strong,7634,10"/>
+		<parameter key="shop_buyable" value="rust remover,9930,1000;yalaharian bp,9774,50;yalaharian bag,9775,20;machete,2420,50;shovel,2554,20;pirate,5926,10;liberty bay,5949,10;backpack,1988,10;green,1998,10;red,2000,10;yellow,2004,10;purple,2001,10;black,2003,10;blue,2002,10;gold,1999,10;fishing rod,2580,100;torch,2050,2;rope,2120,50;aol,2173,50000;obsidian knife,5908,15000;blessed wooden stake,5942,30000;pick,2553,50" />
+	</parameters>
+</npc>

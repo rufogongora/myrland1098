@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<npc name="Randolf" script="donation2.lua" access="5" lookdir="2" walkinterval="4000">
+	<mana now="800" max="800"/>
+	<health now="200" max="200"/>
+	<look type="134" head="78" body="88" legs="0" feet="88" addons="3"/>
+</npc>

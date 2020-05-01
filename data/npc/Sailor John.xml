@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<npc name="Sailor John" script="boatveno.lua" access="3">
+ 	<look type="129" head="0" body="40" legs="0" feet="40"/>
+	<parameters>
+	<parameter key="message_greet" value="Hello |PLAYERNAME|, I can take you to Carlin, Thais, Cormaya, Ab dendriel, Port Hope, Ankrahmun, Edron and Goroma" />
+	<parameter key="message_farewell" value="Cya Later." />
+	<parameter key="module_travel" value="1" />
+	<parameter key="travel_destinations" value="cormaya,578,1424,6,0,true;thais,735,984,6,0,true;carlin,731,638,6,0,true;ab dendriel,1078,489,6,0,true;ankrahmun,1626,1268,6,0,true;port hope,1237,1264,6,0,true;edron,1607,470,6,0,true;goroma,418,1845,5,0,true" />
+	</parameters>
+</npc>

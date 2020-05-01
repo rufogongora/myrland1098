@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Rael" script="houses.lua" walkinterval="4000" floorchange="0">
+
+	<health now="100" max="100"/>
+		<look type="134" head="114" body="113" legs="113" feet="113" addons="0" corpse="2212"/>	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Hola |PLAYERNAME|. tienes problemas con tu {casa}?!" />
+	</parameters>
+</npc>

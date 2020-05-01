@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<npc name="Captain Pete" script="myrland.lua" access="3">
+ 	<look type="131" head="114" body="119" legs="1" feet="150" addon1="1" addon2="1" />
+	<parameters>
+	<parameter key="message_greet" value="Hello |PLAYERNAME|, I can take you to Venore, Thais, Carlin, Ab dendriel, Port Hope, Ankrahmun and Edron" />
+	<parameter key="message_farewell" value="Cya Later." />
+	<parameter key="module_travel" value="1" />
+	<parameter key="travel_destinations" value="carlin,731,638,6,0,true;thais,735,984,6,0,true;venore,1294,844,6,0,true;ab dendriel,1078,489,6,0,true;ankrahmun,1626,1268,6,0,true;port hope,1237,1264,6,0,true;edron,1607,470,6,0,true" />
+	</parameters>
+</npc>

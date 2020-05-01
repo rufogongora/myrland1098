@@ -1,0 +1,9 @@
+<npc name="Impero" script="djinn.lua" walkinterval="4000" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="610" head="0" body="132" legs="114" feet="0" addons="1" />
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I buy swords, clubs, axes, helmets, boots, legs, shields and armors." />
+		<parameter key="shop_sellable" value="ice mace,7487,5000;ice axe,7481,6000;Shadow Sceptre,7451,17500;crystal sword,7449,2000;sapphire hammer,7437,10000;royal axe,7434,95000;dragonbone staff,7430,3000;blessed sceptre,7439,105000;Lunar Staff,7424,9000;wyvern fang,7408,2000;dragon slayer,7402,15000;justice seeker,7390,150000;Vile Axe,7388,15000;diamond sceptre,7387,7000;mystic blade,7384,35000;demonrage sword,7382,25000;Crystal Scale Mail,7609,90000;Rare Demon,7607,15000;Demodras Scale Mail,7535,450000;Hydra Shield,7535,5000;Warlord Robe,7486,30000;crown sword,7578,5000;heroic axe,7389,15000;vile axe,7388,5000;cranial basher,7415,15000;beholder shield,2518,1000;dragon shield,2516,4000;giant sword,2393,10000;bright sword,2407,7000;ice rapier,2396,4000;fire sword,2392,4000;serpent sword,2409,1500;spike sword,2383,500;broad sword,2413,800;dragon lance,2414,12000;guardian halberd,2427,8000;fire axe,2432,10000;knight axe,2430,2000;battle axe,2378,100;war hammer,2391,6000;skull staff,2436,6000;dragon hammer,2434,2000;wand of inferno,2187,3000;platinum amulet,2171,3000;" />
+	</parameters>
+</npc>

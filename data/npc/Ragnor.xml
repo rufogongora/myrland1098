@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<npc name="Ragnor" script="spells.lua" access="5" walkinterval="0">
+ 	<look type="510" head="20" body="120" legs="75" feet="13" corpse="2212"/>
+	<parameters>
+	<parameter key="message_greet" value="Hola |PLAYERNAME|, te gustaria aprender algunas magias nuevas?" />
+	<parameter key="message_farewell" value="Ni peiper." />
+	</parameters>
+</npc>

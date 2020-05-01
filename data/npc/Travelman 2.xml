@@ -1,0 +1,9 @@
+<npc name="Roel" script="carpet.lua" floorchange="0" walkinterval="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="129" head="114" body="114" legs="119" feet="119" addons="0" corpse="2212"/>
+	<parameters>
+		<parameter key="module_travel" value="1" />
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I can take you to thais for 3k." />
+		<parameter key="travel_destinations" value="thais,470,1286,7,3000;" />
+	</parameters>
+</npc>

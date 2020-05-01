@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Alice" script="bless.lua" walkinterval="4000" floorchange="0">
+
+	<health now="100" max="100"/>
+	<look type="139" head="20" body="39" legs="45" feet="7"/>
+
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I sell 5 types of blessing 10k each!" />
+	</parameters>
+</npc>

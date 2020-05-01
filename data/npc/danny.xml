@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<npc name="Danny" script="boatcorm.lua" access="3">
+ 	<look type="131" head="114" body="119" legs="1" feet="150" addon1="1" addon2="1" />
+	<parameters>
+	<parameter key="message_greet" value="Hello |PLAYERNAME|, The arena is currently closed" />
+	<parameter key="message_farewell" value="Cya Later." />
+	<parameter key="module_travel" value="1" />
+	<!-- <parameter key="travel_destinations" value="arena,638,201,6,150" /> -->
+	</parameters>
+</npc>

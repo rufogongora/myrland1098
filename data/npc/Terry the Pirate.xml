@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<npc name="Terry the Pirate" script="boatpirate.lua" access="3">
+ 	<look type="151" head="0" body="114" legs="100" feet="80"/>
+	<parameters>
+	<parameter key="message_greet" value="Hey! Im the merchant that travels from here to the pirate docks." />
+	<parameter key="message_farewell" value="Cya Later." />
+	<parameter key="module_travel" value="1" />
+	<parameter key="travel_destinations" value="pirate docks,281,430,7,0,true" />
+	</parameters>
+</npc>

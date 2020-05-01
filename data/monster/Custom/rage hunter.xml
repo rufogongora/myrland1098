@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Sniper" nameDescription="a Rage hunter" race="blood" experience="1600" speed="275" manacost="0">
+  <health now="1900" max="1900"/>
+  <look type="129" head="115" body="23" legs="42" feet="64" addons="3" corpse="6080"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+   <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="4"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-50" max="-150"/>
+    <attack name="physical" interval="2100" chance="50" range="7" min="-100" max="-250">
+      <attribute key="shootEffect" value="arrow"/>
+    </attack>
+  </attacks>
+  <defenses armor="30" defense="20">
+    <defense name="healing" interval="1000" chance="10" min="100" max="200">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Take my Arrow!"/>
+  </voices>
+  <loot>
+    <item id="2152" countmax="10" chance1="100000" chancemax="0"/> 
+    <item id="2476" chance="7000"/> 
+    <item id="2462" chance="7000"/> 
+    <item id="2477" chance="6000"/> 
+    <item id="2671" countmax="2" chance1="20000" chancemax="0"/> 
+    <item id="5875" chance="8000"/> 
+    <item id="1987" chance="100000"> 
+      <inside>
+        <item id="2456" chance="6666"/> 
+        <item id="2544" countmax="15" chance1="10000" chancemax="0"/> 
+        <item id="2546" countmax="25" chance1="10000" chancemax="0"/> 
+        <item id="5947" chance="2223"/> 
+        <item id="2201" chance="2500"/> 
+      </inside>
+    </item>
+  </loot>
+</monster>

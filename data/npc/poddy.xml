@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<npc name="Poddy" script="boatveno.lua" walkinterval="0" access="3">
+ 	<look type="129" head="0" body="40" legs="0" feet="40"/>
+	<parameters>
+	<parameter key="message_greet" value="Hello |PLAYERNAME|, I can take you to snowground for 200 gps" />
+	<parameter key="message_farewell" value="Cya Later." />
+	<parameter key="module_travel" value="1" />
+	<parameter key="travel_destinations" value="snowground,996,364,7,200,true" />
+	</parameters>
+</npc>

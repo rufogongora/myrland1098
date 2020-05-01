@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<npc name="Ulisses" script="boatcorma.lua" access="3" walkinterval="0">
+ 	<look type="131" head="114" body="119" legs="1" feet="150" addon1="1" addon2="1" />
+	<parameters>
+	<parameter key="message_greet" value="Hello |PLAYERNAME|, With 85 gps you can travel to fabula." />
+	<parameter key="message_farewell" value="Good bye moron." />
+	<parameter key="module_travel" value="1" />
+	<parameter key="travel_destinations" value="fabula,1177,1063,7,85,true" />
+	</parameters>
+</npc>

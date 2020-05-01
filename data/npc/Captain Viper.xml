@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<npc name="Captain Viper" script="vip.lua" access="5" walkinterval="0">
+ 	<look type="132" head="20" body="120" legs="75" feet="13" addons="2" corpse="2212"/>
+	<parameters>
+	<parameter key="message_greet" value="Hola |PLAYERNAME|, Te puedo llevar a Novali, pero solo sirvo a jugadores VIP" />
+	<parameter key="message_farewell" value="Adios, naco." />
+	</parameters>
+</npc>

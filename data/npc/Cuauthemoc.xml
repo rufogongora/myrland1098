@@ -1,0 +1,7 @@
+<npc name="Cuauthemoc" script="football.lua" walkinterval="4000" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="128" head="25" body="35" legs="15" feet="91" addons="0" corpse="2212"/>
+	<parameters>
+		<parameter key="message_greet" value="Hola |PLAYERNAME|, quisieras formar un equipo?, o probablemente jugar un partido?" />
+	</parameters>
+</npc>

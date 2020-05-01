@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<npc name="Elar" script="addon2.lua" access="5" lookdir="2" walkinterval="2000">
+	<mana now="800" max="800"/>
+	<health now="200" max="200"/>
+	<look type="134" head="78" body="88" legs="0" feet="88" addons="3"/>
+	<parameters>
+	<parameter key="message_greet" value="Greetings |PLAYERNAME|. Will you help me? If you do, I'll reward you with nice addons! Just say 'addons' or 'help' if you don't know what to do." />
+	</parameters>
+</npc>

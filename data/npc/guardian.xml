@@ -1,0 +1,5 @@
+<npc name="Guardian" script="guardian.lua" walkinterval="0" floorchange="0" access="3" level="1" maglevel="1">
+  <mana now="800" max="800"/>
+  <health now="200" max="200"/>
+  <look type="131" head="116" body="94" legs="78" feet="115" addons="3"/>
+ </npc>

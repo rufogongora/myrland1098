@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<npc name="Paddy" script="boatveno.lua" access="3" walkinterval="0">
+ 	<look type="129" head="0" body="40" legs="0" feet="40"/>
+	<parameters>
+	<parameter key="message_greet" value="Hello |PLAYERNAME|, I can take you to Freezaim for 200 gps" />
+	<parameter key="message_farewell" value="Cya Later." />
+	<parameter key="module_travel" value="1" />
+	<parameter key="travel_destinations" value="freezaim,971,246,7,200,true" />
+	</parameters>
+</npc>

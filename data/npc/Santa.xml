@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Santa" script="santa.lua" walkinterval="4000" floorchange="0">
+
+    <health now="150" max="150"/>
+    <look type="160" head="0" body="94" legs="0" feet="94"/>
+    <parameters>
+        <parameter key="message_greet" value="Hello |PLAYERNAME|!"/>
+        <parameter key="message_farewell" value="Merry Christmas." />
+        <parameter key="message_placedinqueue" value="Your time will come |PLAYERNAME|, ho ho ho." />
+        <parameter key="message_walkaway" value="Merry Christmas." />
+        <parameter key="message_idletimeout" value="Merry Christmas." />
+        <parameter key="message_walkaway" value="Merry Christmas!" />
+	</parameters>
+</npc>

@@ -1,0 +1,9 @@
+<npc name="Raciel" script="seller.lua" walkinterval="4000" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="148" head="114" body="113" legs="113" feet="113" addons="3" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Hola |PLAYERNAME|. Yo compro Cuerpos de Ratas muertas" />
+		<parameter key="shop_sellable" value="rat,2813,2;wolf,2826,100"/>
+	</parameters>
+</npc>

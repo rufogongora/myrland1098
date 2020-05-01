@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<npc name="Captain Myrland" script="myrland RESPALDO.lua" access="5" walkinterval="0">
+ 	<look type="133" head="20" body="120" legs="75" feet="13" corpse="2212"/>
+	<parameters>
+	<parameter key="message_greet" value="Hello |PLAYERNAME|, i can take you to {Andicas},{Venoria},{Thais},{Sonora},{Jungelar},{Snowground},{Merania} and {Zao} for 150 gps" />
+	<parameter key="message_farewell" value="Good bye |PLAYERNAME| have a nice Day!." />
+	<parameter key="module_travel" value="1" />
+	<parameter key="travel_destinations" value="andicas,1085,1029,6,150;venoria,840,923,6,150;thais,526,1230,6,150;sonora,1016,852,6,150;jungelar,885,658,6,150;snowground,836,321,6,150;merania,286,896,6,120;zao,977,1430,7,150" />
+	</parameters>
+</npc>

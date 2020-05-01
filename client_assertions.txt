@@ -1,0 +1,90 @@
+----- 30/04/2020 04:48:08 - Bon Druid (200.68.180.109) -----
+Debug Assertion 10.98 NWin32Exception.cpp 55
+Wed Apr 29 22:47:08 2020
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in MEX
+Processor: Intel Celeron N3060 @ 1
+Video Card: Intel (R) HD GR
+Last Packet Types: 109 106 108 170 030 029 108 162 159 210
+Last Packet: 109 028 004 013 004 007 001 027 004 013 004 007 000 000 000 000
+Player Position: [1047,1033,7]
+Player Name: Bon Druid (Myrland)
+Player Action: 048 046 048 046 048 046 048 058 055 049 055 050
+Player.cpp 344: exception occurred, reason:
+Player.cpp 448: exception occurred, reason:
+Control.cpp 2178: exception occurred (MessageType: 0 MaW: 3FAF7C0 MoW: 0), reason:
+Control.cpp 2173: exception occurred, reason:
+Control.cpp 539: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 133: exception occurred (Surface = 1), reason:
+GUI.cpp 1825: exception occurred (Surface = 1), reason:
+MapWindow.cpp 985: exception occurred (Surface = 1), reason:
+MapWindow.cpp 935: exception occurred, reason:
+NWin32Exception.cpp 55: win32 exception occurred, reason:
+access violation (read attempt at FFFFFFFF)
+Comment: 
+----- 30/04/2020 04:55:18 - Mortifico (187.245.72.166) -----
+Debug Assertion 10.98 NWin32Exception.cpp 55
+Wed Apr 29 22:54:11 2020
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in MEX
+Processor: Intel Celeron N2840 @ 2
+Video Card: Intel (R) HD GR
+Player.cpp 344: exception occurred, reason:
+Player.cpp 448: exception occurred, reason:
+Control.cpp 2178: exception occurred (MessageType: 0 MaW: 3972470 MoW: 0), reason:
+Control.cpp 2173: exception occurred, reason:
+Control.cpp 539: exception occurred (Force?1:0 = 0), reason:
+Control.cpp 370: exception occurred, reason:
+NWin32Exception.cpp 55: win32 exception occurred, reason:
+access violation (read attempt at 00DBB8C9)
+Comment: 
+----- 30/04/2020 08:24:01 - Bon Druid (200.68.180.109) -----
+Debug Assertion 10.98 NWin32Exception.cpp 55
+Thu Apr 30 02:23:29 2020
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in MEX
+Processor: Intel Celeron N3060 @ 1
+Video Card: Intel (R) HD GR
+Last Packet Types: 109 107 109 029 030 109 162 159 210 210
+Last Packet: 109 029 004 010 004 007 002 029 004 011 004 007 000 000 000 000
+Player Position: [1052,1036,7]
+Player Name: Bon Druid (Myrland)
+Player Action: 048 046 048 046 048 046 048 058 055 049 055 050
+Player.cpp 344: exception occurred, reason:
+Player.cpp 448: exception occurred, reason:
+Control.cpp 2178: exception occurred (MessageType: 0 MaW: 4171ED0 MoW: 0), reason:
+Control.cpp 2173: exception occurred, reason:
+Control.cpp 539: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 133: exception occurred (Surface = 1), reason:
+GUI.cpp 1825: exception occurred (Surface = 1), reason:
+MapWindow.cpp 985: exception occurred (Surface = 1), reason:
+MapWindow.cpp 558: exception occurred (Obj = 17468), reason:
+NWin32Exception.cpp 55: win32 exception occurred, reason:
+access violation (read attempt at 00C3601B)
+Comment: 
+----- 30/04/2020 20:15:14 - Froot Loopz (201.175.97.41) -----
+Debug Assertion 10.98 NWin32Exception.cpp 55
+Thu Apr 30 15:13:44 2020
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in MEX
+Processor: Intel CORE I3-4
+Video Card: Intel (R) HD GR
+Last Packet Types: 029 108 030 029 109 029 104 109 104 109
+Last Packet: 029 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000
+Player Position: [1040,1038,7]
+Player Name: Chokocrispis (Myrland)
+Player Action: 048 046 048 046 048 046 048 058 055 049 055 050
+Player.cpp 344: exception occurred, reason:
+Player.cpp 448: exception occurred, reason:
+Control.cpp 2178: exception occurred (MessageType: 0 MaW: 35CC168 MoW: 0), reason:
+Control.cpp 2173: exception occurred, reason:
+Control.cpp 539: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 133: exception occurred (Surface = 1), reason:
+GUI.cpp 1825: exception occurred (Surface = 1), reason:
+MapWindow.cpp 985: exception occurred (Surface = 1), reason:
+MapWindow.cpp 581: exception occurred, reason:
+surfaceDX9.cpp 1401: exception occurred, reason:
+surfaceDX9.cpp 251: exception occurred, reason:
+NWin32Exception.cpp 55: win32 exception occurred, reason:
+access violation (read attempt at 91C3895C)
+Comment: 

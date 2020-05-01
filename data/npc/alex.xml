@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Alex" script="default.lua" walkinterval="4000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="131" head="114" body="119" legs="114" feet="114" corpse="2212"/>
+    <parameters>
+        <parameter key="module_travel" value="1"/>
+		<parameter key="message_greet" value="Hola |PLAYERNAME|!. Quieres ir a la abandonada isla de {Quel Thalas} o volver a {myrland}?."/>
+        <parameter key="travel_destinations" value="quel,605,981,7,250;myrland,532,1053,7,250;"/>
+    </parameters>
+</npc>

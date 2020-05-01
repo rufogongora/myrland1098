@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<npc name="Chappy" script="boatthais.lua" access="3">
+ 	<look type="128" head="132" body="0" legs="114" feet="0" addons="1" />
+	<parameters>
+	<parameter key="message_greet" value="Hello |PLAYERNAME|, I can take you to Venore, Cormaya, Carlin, Ab dendriel, Port Hope, Ankrahmun and Edron" />
+	<parameter key="message_farewell" value="Cya Later." />
+	<parameter key="module_travel" value="1" />
+	<parameter key="travel_destinations" value="carlin,731,638,6,0,true;cormaya,578,1424,6,0,true;venore,1294,844,6,0,true;ab dendriel,1078,489,6,0,true;ankrahmun,1626,1268,6,0,true;port hope,1237,1264,6,0,true;edron,1607,470,6,0,true" />
+	</parameters>
+</npc>

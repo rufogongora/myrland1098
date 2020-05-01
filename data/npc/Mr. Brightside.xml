@@ -1,0 +1,7 @@
+<npc name="Mr. Brightside" script="sulphur.lua" walkinterval="4000" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+        <look type="153" head="114" body="1" legs="1" feet="76" addons="1" corpse="2212"/>
+	<parameters>
+		<parameter key="message_greet" value="Hola |PLAYERNAME|. Yo puedo desmenuzar tu {fire sword} hasta convertirla en polvo." />		
+	</parameters>
+</npc>

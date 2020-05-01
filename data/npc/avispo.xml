@@ -1,0 +1,7 @@
+<npc name="Avispo" script="cookbook.lua" walkinterval="2000" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+        <look type="143" head="124" body="14" legs="28" feet="36" addons="1" corpse="2212"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Would you help me finding my {cookbook}? i lost it when i was on {dwarf mines} near here.." />		
+	</parameters>
+</npc>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<npc name="Horadomir" script="djinnbuy.lua" walkinterval="4000" floorchange="0" access="3">
+ 	<look type="128" head="67" body="99" legs="35" feet="26" />
+	<parameters>
+	<parameter key="message_greet" value="Es bueno verte |PLAYERNAME|!, yo vendo solo de marca!, tan solo pideme un {offer}.." />
+	<parameter key="message_farewell" value="Vuelve pronto chiquilin!." />
+	<parameter key="module_shop" value="1" />
+	<parameter key="shop_sellable" value="crown armor,2487,18000;knight armor,2476,5000;golden armor,2466,40000;plate armor,2463,800;amulet of loss,2173,30000;knight legs,2477,19000;crown legs,2488,32000;plate legs,2647,600;fire sword,2392,17000;giant sword,2393,36000;spike sword,2383,300;bright sword,2407,31000;ice rapier,2396,2000;haunted blade,7407,120000;dragon lance,2414,35000;knight axe,2430,2500;fire axe,2432,24000;war hammer,2391,5000;skull staff,2436,7500;crystal mace,2445,21000;sapphire hammer,7437,36000;blue robe,2656,10500;dragonbone staff,7430,6000;tower shield,2528,5500;hydra blade,7420,12500" />
+	</parameters>
+</npc>

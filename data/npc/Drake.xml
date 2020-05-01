@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<npc name="Drake" script="traineq.lua" walkinterval="4000" floorchange="0" access="3">
+ 	<look type="134" head="0" body="132" legs="114" feet="0" addons="2" />
+	<parameters>
+	<parameter key="message_greet" value="hello |PLAYERNAME|, I sell training equiptment,o wand and rods just read the blackboard behind me." />
+	<parameter key="message_farewell" value="Cya Later." />
+	<parameter key="module_shop" value="1" />
+	<parameter key="shop_buyable" value="
+	hatchet,2388,35;
+	mace,2398,35;
+	sword,2376,40;
+	wooden shield,2512,20;
+	spear,2389,5;
+	wand of inferno,2187,10000;
+	wand of draconia, 8921, 7500;
+	wand of starstorm, 8920, 18000;
+	wand of voodoo, 8922, 22000;
+	wand of cosmic energy,2189,6000;
+	wand of decay,2188,2000;
+	wand of dragonbreath,2191,1000;
+	wand of vortex,2190,1;
+	hailstorm rod,2183,10000;
+	terra rod,2181,6000; 
+	northwind rod, 8911, 7500;
+	springsprout rod, 8912, 18000;
+	underworld rod, 8910, 18000;
+	volcanic rod,2185,2000;
+	moonlight rod,2186,1000;
+	snakebite rod,2182,1" />
+	</parameters>
+</npc>

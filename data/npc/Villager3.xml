@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<npc name="Max" script="villager3.lua" walkinterval="4000" floorchange="0" access="3">
+ 	<look type="152" head="94" body="118" legs="0" feet="118" />
+	<parameters>
+	<parameter key="message_greet" value="Que chida la playa!! a surfear!!" />
+	<parameter key="message_farewell" value="Kawapunga!!" />
+	</parameters>
+</npc>

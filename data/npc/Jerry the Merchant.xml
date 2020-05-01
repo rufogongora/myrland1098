@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<npc name="Jerry the Merchant" script="boatpirate2.lua" access="3">
+ 	<look type="151" head="0" body="65" legs="100" feet="20"/>
+	<parameters>
+	<parameter key="message_greet" value="Aaah! lets get out of here, Ill get you back to carlin." />
+	<parameter key="message_farewell" value="Cya Later." />
+	<parameter key="module_travel" value="1" />
+	<parameter key="travel_destinations" value="carlin,575,495,7,0,true" />
+	</parameters>
+</npc>

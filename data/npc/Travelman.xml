@@ -1,0 +1,9 @@
+<npc name="Travelman" script="carpet.lua" walkinterval="0" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="129" head="114" body="119" legs="114" feet="114" addons="0" corpse="2212"/>
+	<parameters>
+		<parameter key="module_travel" value="1" />
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I can take you to Myrnao Mountain por 1k, vinidia 125 gps y thais 125 gps." />
+		<parameter key="travel_destinations" value="myrnao,694,1052,4,1000;myrnao,694,1052,4,1000;vinidia,399,1325,7,125;thais,469,1287,7,125" />
+	</parameters>
+</npc>

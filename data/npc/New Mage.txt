@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<npc name="New Mage" script="wands.lua" access="5" lookdir="1" autowalk="1">
+	<health now="1000" max="1000"/>
+<look type="154" head="1" body="316" legs="216" feet="66" addons="3"/>
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I Sell Wands." />
+	</parameters>
+</npc>

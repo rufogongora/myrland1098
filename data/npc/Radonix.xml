@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<npc name="Radonix" script="safariin.lua" access="3" lookdir="2" walkinterval="4000">
+	<mana now="800" max="800"/>
+	<health now="200" max="200"/>
+<look type="154" head="0" body="96" legs="97" feet="2" addons="3"  />
+	<parameters>
+		<parameter key="message_greet" value="Hola |PLAYERNAME|. Si quieres entrar a mi sona safari solo dilo" />		
+	</parameters>
+</npc>

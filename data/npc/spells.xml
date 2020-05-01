@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<npc name="Ramon" access="5" lookdir="1" script="spells.lua" walkinterval="6500">
+	<health now="1000" max="1000"/>
+<look type="130" head="1" body="36" legs="26" feet="55" addons="1"/>
+
+	<parameters>
+		<parameter key="message_greet" value="Hola |PLAYERNAME|. yo te puedo vender algunos {spells}" />		
+	</parameters>
+
+  <interaction range="3" idletime="30" idleinterval="300" defaultpublic="0">
+    <interact keywords="spells">
+      <response text="Pues yo vendo los spells {soul storm}, {arrowa}, {extreme explosion}, {slash}."/>
+    </interact>
+  </interaction>
+</npc>
