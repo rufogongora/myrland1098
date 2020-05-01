@@ -13,6 +13,7 @@
     <talkaction words="/deathlist" script="deathlist.lua" />
 
 	<!-- commands -->
+	<talkaction words="/save" separator=" " script="save.lua"/>
 	<talkaction words="/storage" separator=" " script="storage.lua"/>
 	<talkaction words="/ban" separator=" " script="ban.lua" />
 	<talkaction words="/ipban" separator=" " script="ipban.lua" />

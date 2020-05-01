@@ -1,4 +1,9 @@
 function onSay(cid, words, param)
+
+	if not cid:getGroup():getAccess() then
+		return true
+	end
+
 	local t = param:splitTrimmed(",")
 	if(not t[2]) then
 		doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Invalid param specified.")
