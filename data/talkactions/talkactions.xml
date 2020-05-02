@@ -11,6 +11,8 @@
 	<talkaction words="/changesex" script="changesex.lua" />
 	<talkaction words="/uptime" script="uptime.lua" />
     <talkaction words="/deathlist" script="deathlist.lua" />
+	<talkaction words="/attr" separator=" " script="attr.lua"/>
+
 
 	<!-- commands -->
 	<talkaction words="/save" separator=" " script="save.lua"/>

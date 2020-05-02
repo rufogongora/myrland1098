@@ -15,6 +15,7 @@
 
 	<!-- Oak -->
 	<movevent event="StepOut" uniqueid="32193"  script="mods/demonoak/demonOakTree.lua" />
+	<movevent event="StepOut" actionid="32193"  script="mods/demonoak/demonOakTree.lua" />
 	<movevent event="StepIn" itemid="8292"  script="mods/demonoak/demonOakArea.lua" />
 
 	<!-- Arena -->

@@ -137,18 +137,18 @@ local outfit_node = keywordHandler:addKeyword({'second crystal warlord addon'}, 
     outfit_node:addChildKeywordNode(noNode)
  
 -- Soil Guardian (done)
-local outfit_node = keywordHandler:addKeyword({'first soil guardian addon'}, playerBuyAddonNPC, {premium = false, cost = 1000000, items = {{5893,15}, {5910,5}, {5883,10}, {5880,10}, {5899,10}, {5905,10}}, outfit_female = 514, outfit_male = 516, addon = 1, storageID = 10037})
+local outfit_node = keywordHandler:addKeyword({'first soil guardian addon'}, playerBuyAddonNPC, {premium = false, cost = 1000000, items = {{5893,15}, {5910,5}, {5883,10}, {5880,10}, {5899,10}, {5905,10}}, outfit_female = 514, outfit_male = 516, addon = 1, storageID = 10237})
     outfit_node:addChildKeywordNode(yesNode)
     outfit_node:addChildKeywordNode(noNode)
-local outfit_node = keywordHandler:addKeyword({'second soil guardian addon'}, playerBuyAddonNPC, {premium = false, cost = 1000000, items = {{5894,1}, {5895,2}, {5902,5}, {5922,5}, {5879,5}, {5930,10}}, outfit_female = 514, outfit_male = 516, addon = 2, storageID = 10038})
+local outfit_node = keywordHandler:addKeyword({'second soil guardian addon'}, playerBuyAddonNPC, {premium = false, cost = 1000000, items = {{5894,1}, {5895,2}, {5902,5}, {5922,5}, {5879,5}, {5930,10}}, outfit_female = 514, outfit_male = 516, addon = 2, storageID = 10238})
     outfit_node:addChildKeywordNode(yesNode)
     outfit_node:addChildKeywordNode(noNode)
  
 -- Elementalist (done)
-local outfit_node = keywordHandler:addKeyword({'first elementalist addon'}, playerBuyAddonNPC, {premium = false, cost = 100000, items = {}, outfit_female = 433, outfit_male = 432, addon = 1, storageID = 10037})
+local outfit_node = keywordHandler:addKeyword({'first elementalist addon'}, playerBuyAddonNPC, {premium = false, cost = 100000, items = {}, outfit_female = 433, outfit_male = 432, addon = 1, storageID = 10137})
     outfit_node:addChildKeywordNode(yesNode)
     outfit_node:addChildKeywordNode(noNode)
-local outfit_node = keywordHandler:addKeyword({'second elementalist addon'}, playerBuyAddonNPC, {premium = false, cost = 100000, items = {}, outfit_female = 433, outfit_male = 432, addon = 2, storageID = 10038})
+local outfit_node = keywordHandler:addKeyword({'second elementalist addon'}, playerBuyAddonNPC, {premium = false, cost = 100000, items = {}, outfit_female = 433, outfit_male = 432, addon = 2, storageID = 10138})
     outfit_node:addChildKeywordNode(yesNode)
     outfit_node:addChildKeywordNode(noNode)
  

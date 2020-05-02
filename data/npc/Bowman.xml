@@ -5,6 +5,7 @@
 	<parameter key="message_farewell" value="Nos vemos." />
 	<parameter key="module_shop" value="1" />
 	<parameter key="shop_buyable" value="arrow,2544,3;
+			royal spear,7378,25;
 			assassin star,7368,140;
 			infernal bolt,6529,500;
 			bolt,2543,4;			
