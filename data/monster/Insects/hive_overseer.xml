@@ -66,6 +66,5 @@
 		<item name="hive scythe" chance="1650" />
 		<item name="gooey mass" countmax="2" chance="13000" />
 		<item name="hive bow" chance="830" />
-		<item name="gooey mass" chance="830" />
 	</loot>
 </monster>

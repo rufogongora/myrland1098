@@ -15,28 +15,40 @@ function creatureSayCallback(cid, type, msg)
 
 	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 
-        player_gold = getPlayerItemCount(cid,2148) 
-        player_plat = getPlayerItemCount(cid,2152)*100 
-        player_crys = getPlayerItemCount(cid,2160)*10000 
-        player_money = player_gold + player_plat + player_crys
+    player_gold = getPlayerItemCount(cid,2148) 
+    player_plat = getPlayerItemCount(cid,2152)*100 
+    player_crys = getPlayerItemCount(cid,2160)*10000 
+    player_money = player_gold + player_plat + player_crys
 
-        if msgcontains(msg, 'skirt') or msgcontains(msg, 'quest') then
+    if msgcontains(msg, 'skirt') or msgcontains(msg, 'quest') then
 		if getPlayerStorageValue(cid,13569) == 1 then
             selfSay('Usted tener mi bast skirt???', cid)
-            talk_state = 1
+            npcHandler.topic[cid] = 1
 	else
-	selfSay('Chfasdnfgs tuads madrsaer', cid)
+	    selfSay('Chfasdnfgs tuads madrsaer', cid)
 	end
 
-        elseif msgcontains(msg, 'yes') or msgcontains(msg, 'si') and talk_state == 1 then
+    elseif (msgcontains(msg, 'yes') or msgcontains(msg, 'si')) and npcHandler.topic[cid] == 1 then
 		if getPlayerStorageValue(cid,13568) == -1 then
-                selfSay('Usted llevar cajita de parte de cyclop para Ulisses! ! .', cid)
-                    doPlayerAddItem(cid,8261,1)
-		doPlayerTakeItem(cid,3983,1)
-		setPlayerStorageValue(cid,13568,1)
-	else
-	selfSay('Tabv Vai se FuderAZ !!?', cid)
-	end
+            selfSay('Usted llevar cajita de parte de cyclop para Ulisses! ! .', cid)
+            doPlayerAddItem(cid,8261,1)
+		    doPlayerTakeItem(cid,3983,1)
+		    setPlayerStorageValue(cid,13568,1)
+	    else
+	        selfSay('Tabv Vai se FuderAZ !!?', cid)
+        end
+    elseif msgcontains(msg, "melt") then
+		selfSay("Can melt gold ingot for lil' one. You want?", cid)
+		npcHandler.topic[cid] = 2
+	elseif msgcontains(msg, "yes") and npcHandler.topic[cid] == 2 then
+		if doPlayerTakeItem(cid, 9971,1) then
+			selfSay("whoooosh There!", cid)
+			doPlayerAddItem(cid, 13941, 1)
+		else
+            selfSay("There is no gold ingot with you.", cid)
+            npcHandler.topic[cid]  = 0
+		end
+	
           
 
         elseif msgcontains(msg, 'no') and (talk_state >= 1 and talk_state <= 5) then
