@@ -13,5 +13,5 @@
 	<event type="kill" name="ArenaKill"  script="arenakill.lua"/>
 	<event type="logout" name="demonOakLogout"  script="demonOakLogout.lua"/>
 	<event type="death" name="demonOakDeath"  script="demonOakDeath.lua"/>
-	<event type="login" name="FixAddons" script="fixaddons.lua"/>
+	<!-- <event type="login" name="FixAddons" script="fixaddons.lua"/> -->
 </creaturescripts>
