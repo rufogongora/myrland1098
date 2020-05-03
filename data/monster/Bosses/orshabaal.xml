@@ -70,7 +70,7 @@
 	</voices>
 	<loot>
 		<item name="purple tome" chance="20000" />
-		<item name="golden mug" chance="12500" />
+		<item name="control unit" chance="100000" />
 		<item name="crystal necklace" chance="20000" />
 		<item name="white pearl" countmax="15" chance="33333" />
 		<item name="black pearl" countmax="8" chance="25000" />
