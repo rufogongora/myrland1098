@@ -6,4 +6,5 @@
 	-->
 	<raid name="Feverish" file="feverish.xml" interval2="1440" margin="0" />
 	<raid name="Morgaroth" file="morgaroth.xml" interval2="1440" margin="0" />
+	<raid name="Orshabaal" file="orshabaal.xml" interval2="1440" margin="0" />
 </raids>

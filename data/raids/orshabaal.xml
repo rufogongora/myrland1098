@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+<announce delay="1000" type="event" message="Los monjes de merania advierten que una nueva era comienza, la era del terror" />
+<announce delay="60000" type="event" message="Actividad sismica terrible se detecta en merania, podra ser el demonio malvado!?...." />
+<announce delay="120000" type="event" message="Orshabaal a vuelto, aterrizo sobre el este de merania, trae consigo a su ejercito demoniaco, todos a luchar o a morir!" />
+
+  <!--Area Spawns-->
+  <areaspawn delay="120000" fromx="418" fromy="891" fromz="7" tox="456" toy="894" toz="7">
+    <monster name="Demon" amount="5" />
+    <monster name="Fire Elemental" amount="15" />
+    <monster name="Orshabaal" amount="1" />
+  </areaspawn>
+
+</raid>
