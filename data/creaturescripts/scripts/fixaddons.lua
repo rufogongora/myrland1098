@@ -3,8 +3,8 @@ local addons = {
     { storage = 10002, outfit1 = 128, addon1 = 2, outfit2 = 136, addon2 = 2  }, -- second citizen
     { storage = 40001, outfit1 = 141, addon1 = 2, outfit2 = 130, addon2 = 1  }, -- first mage
     { storage = 40002, outfit1 = 142, addon1 = 2, outfit2 = 130, addon2 = 2 }, --second mage
-    { storage = 50001, outfit1 = 133, addon1 = 1, outfit2 = 138, addon2 = 1 }, --first summoner
-    { storage = 50002, outfit1 = 133, addon1 = 2, outfit2 = 138, addon2 = 2 }, --second summoner
+    { storage = 50001, outfit1 = 133, addon1 = 1, outfit2 = 141, addon2 = 1 }, --first summoner
+    { storage = 50002, outfit1 = 133, addon1 = 2, outfit2 = 141, addon2 = 2 }, --second summoner
     { storage = 60001, outfit1 = 143, addon1 = 2, outfit2 = 147, addon2 = 2 }, --first barbarian
     { storage = 60001, outfit1 = 143, addon1 = 1, outfit2 = 147, addon2 = 1 }, --second barbarian
     { storage = 70001, outfit1 = 144, addon1 = 1, outfit2 = 148, addon2 = 1 }, --first druid
