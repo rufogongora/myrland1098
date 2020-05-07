@@ -5,7 +5,7 @@ local config = {
     bosses = { -- Monster Name, Teleport To Position, Teleport Position
         ["Ushuriel"] = { { x = 334, y = 246, z = 7 }, { x = 385, y = 375, z = 5, stackpos = 1 } },
         ["Annihilon"] = { { x = 334, y = 246, z = 7 }, { x = 457, y = 359, z = 5, stackpos = 1 } },
-        ["Hellgorak"] = { { x = 373, y = 422, z = 6 }, { x = 462, y = 401, z = 5, stackpos = 1 } },
+        ["Hellgorak"] = { {x = 496, y = 671, z = 5}, { x = 462, y = 401, z = 5, stackpos = 1 } },
         ["Madareth"] = { { x = 334, y = 246, z = 7 }, { x = 382, y = 401, z = 5, stackpos = 1 } },
         ["Zugurosh"] = { { x = 334, y = 246, z = 7 }, { x = 419, y = 374, z = 5, stackpos = 1 } },
         ["Latrivan"] = { { x = 334, y = 246, z = 7 }, { x = 417, y = 405, z = 5, stackpos = 1 } },
