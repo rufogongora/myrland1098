@@ -50,4 +50,7 @@
 		<voice sentence="You can't hope to penetrate my shields!" />
 		<voice sentence="Do you really think you could beat me?" />
 	</voices>
+	<script>
+		<event name="Inquisition"/>
+	</script>
 </monster>

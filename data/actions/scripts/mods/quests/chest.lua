@@ -128,75 +128,75 @@ function onUse(cid, item, frompos, item2, topos)
 		   elseif item.uid == 13001 then
 			   queststatus = getPlayerStorageValue(cid,13001)
 			   if queststatus == -1 then
-				   doPlayerSendTextMessage(cid,24,"You have found a Steel axe.")
+				   doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"You have found a Steel axe.")
 				   doPlayerAddItem(cid,8601,1)
 				   setPlayerStorageValue(cid,13001,1)
 			   else
-				   doPlayerSendTextMessage(cid,24,"It is empty.")
+				   doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"It is empty.")
 			   end 
 	
 		   elseif item.uid == 13002 then
 			   queststatus = getPlayerStorageValue(cid,13001)
 			   if queststatus == -1 then
-				   doPlayerSendTextMessage(cid,24,"You have found a Daramanian mace.")
+				   doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"You have found a Daramanian mace.")
 				   doPlayerAddItem(cid,2439,1)
 				   setPlayerStorageValue(cid,13001,1)
 			   else
-				   doPlayerSendTextMessage(cid,24,"It is empty.")
+				   doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"It is empty.")
 			   end 
 		elseif item.uid == 13004 then
 				queststatus = getPlayerStorageValue(cid,13004)
 				if queststatus == -1 then
-					doPlayerSendTextMessage(cid,24,"You have found a one Crystal coin.")
+					doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"You have found a one Crystal coin.")
 					doPlayerAddItem(cid,2160,1)
 					setPlayerStorageValue(cid,13004,1)
 				else
-					doPlayerSendTextMessage(cid,24,"It is empty.")
+					doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"It is empty.")
 			end 
 		   elseif item.uid == 13003 then
 			   queststatus = getPlayerStorageValue(cid,13001)
 			   if queststatus == -1 then
-				   doPlayerSendTextMessage(cid,24,"You have found a Jagged sword.")
+				   doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"You have found a Jagged sword.")
 				   doPlayerAddItem(cid,8602,1)
 				   setPlayerStorageValue(cid,13001,1)
 			   else
-				   doPlayerSendTextMessage(cid,24,"It is empty.")
+				   doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"It is empty.")
 			end
 		elseif item.uid == 13005 then
 			queststatus = getPlayerStorageValue(cid,13005)
 			if queststatus == -1 then
-				doPlayerSendTextMessage(cid,24,"You have found a a Wand of Everblazing.")
+				doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"You have found a a Wand of Everblazing.")
 				doPlayerAddItem(cid,18409,1)
 				setPlayerStorageValue(cid,13005,1)
 			else
-				doPlayerSendTextMessage(cid,24,"It is empty.")
+				doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"It is empty.")
 			end
 		elseif item.uid == 13006 then
 			queststatus = getPlayerStorageValue(cid,13005)
 			if queststatus == -1 then
-				doPlayerSendTextMessage(cid,24,"You have found an Umbral Mace.")
+				doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"You have found an Umbral Mace.")
 				doPlayerAddItem(cid,22411,1)
 				setPlayerStorageValue(cid,13005,1)
 			else
-				doPlayerSendTextMessage(cid,24,"It is empty.")
+				doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"It is empty.")
 			end
 		elseif item.uid == 13007 then
 			queststatus = getPlayerStorageValue(cid,13005)
 			if queststatus == -1 then
-				doPlayerSendTextMessage(cid,24,"You have found an Umbral Blade.")
+				doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"You have found an Umbral Blade.")
 				doPlayerAddItem(cid,22399,1)
 				setPlayerStorageValue(cid,13005,1)
 			else
-				doPlayerSendTextMessage(cid,24,"It is empty.")
+				doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"It is empty.")
 			end
 		elseif item.uid == 13008 then
 			queststatus = getPlayerStorageValue(cid,13005)
 			if queststatus == -1 then
-				doPlayerSendTextMessage(cid,24,"You have found an Umbral Axe.")
+				doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"You have found an Umbral Axe.")
 				doPlayerAddItem(cid,22405,1)
 				setPlayerStorageValue(cid,13005,1)
 			else
-				doPlayerSendTextMessage(cid,24,"It is empty.")
+				doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"It is empty.")
 			end
 		elseif item.uid == 13009 then
 			queststatus = getPlayerStorageValue(cid,13005)
@@ -205,18 +205,55 @@ function onUse(cid, item, frompos, item2, topos)
 				doPlayerAddItem(cid,22417,1)
 				setPlayerStorageValue(cid,13005,1)
 			else
-				doPlayerSendTextMessage(cid,24,"It is empty.")
+				doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"It is empty.")
 			end
 		elseif item.uid == 13010 then
 			queststatus = getPlayerStorageValue(cid,13005)
 			if queststatus == -1 then
-				doPlayerSendTextMessage(cid,24,"You have found a Glacial Rod.")
+				doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"You have found a Glacial Rod.")
 				doPlayerAddItem(cid,18412,1)
 				setPlayerStorageValue(cid,13005,1)
 			else
-				doPlayerSendTextMessage(cid,24,"It is empty.")
+				doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"It is empty.")
 			end
 	
+			-- yalahari
+		elseif item.uid == 9776	 then
+			queststatus = getPlayerStorageValue(cid,9776)
+			if queststatus == -1 then
+				doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"You have found a Yalahari Armor.")
+				doPlayerAddItem(cid,9776,1)
+				setPlayerStorageValue(cid,9776,1)
+			else
+				doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"It is empty.")
+			end
+		elseif item.uid == 9777 then
+			queststatus = getPlayerStorageValue(cid,9776)
+			if queststatus == -1 then
+				doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"You have found a Yalahari Leg Piece.")
+				doPlayerAddItem(cid,9777,1)
+				setPlayerStorageValue(cid,9776,1)
+			else
+				doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"It is empty.")
+			end
+		elseif item.uid == 9778 then
+			queststatus = getPlayerStorageValue(cid,9776)
+			if queststatus == -1 then
+				doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"You have found a Yalahari Mask.")
+				doPlayerAddItem(cid,9778,1)
+				setPlayerStorageValue(cid,9776,1)
+			else
+				doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"It is empty.")
+			end
+	
+
+
+
+
+
+
+
+
 		end
 	
 

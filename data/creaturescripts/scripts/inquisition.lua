@@ -10,8 +10,10 @@ local config = {
         ["Zugurosh"] = { { x = 334, y = 246, z = 7 }, { x = 419, y = 374, z = 5, stackpos = 1 } },
         ["Latrivan"] = { { x = 334, y = 246, z = 7 }, { x = 417, y = 405, z = 5, stackpos = 1 } },
         ["Satan"] = { { x = 1490, y = 1237, z = 10 }, { x = 1493, y = 1236, z = 10, stackpos = 1 } },
-		["Shaul"] = { { x = 598, y = 490, z = 12 }, { x = 584, y = 490, z = 11, stackpos = 1 } }
- }
+		["Shaul"] = { { x = 598, y = 490, z = 12 }, { x = 584, y = 490, z = 11, stackpos = 1 } },
+        ["Azerus"] = { {x = 981, y = 710, z = 9}, {x = 947, y = 710, z = 9, stackpos = 1} },
+
+    }
 }
 
 local function removal(position)

@@ -5,6 +5,6 @@
 	<parameter key="message_greet" value="Hello |PLAYERNAME|, i can take you to {Andicas},{Venoria},{Thais},{Sonora},{Jungelar},{Snowground},{Merania} and {Zao} for 150 gps" />
 	<parameter key="message_farewell" value="Good bye |PLAYERNAME| have a nice Day!." />
 	<parameter key="module_travel" value="1" />
-	<parameter key="travel_destinations" value="andicas,1085,1029,6,150;venoria,840,923,6,150;thais,526,1230,6,150;sonora,1016,852,6,150;jungelar,885,658,6,150;snowground,836,321,6,150;merania,286,896,6,120;zao,977,1430,7,150" />
+	<parameter key="travel_destinations" value="roshamuul,1290,1637,7,1000;andicas,1085,1029,6,150;venoria,840,923,6,150;thais,526,1230,6,150;sonora,1016,852,6,150;jungelar,885,658,6,150;snowground,836,321,6,150;merania,286,896,6,120;zao,977,1430,7,150" />
 	</parameters>
 </npc>
