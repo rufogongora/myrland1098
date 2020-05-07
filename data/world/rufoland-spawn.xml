@@ -2691,7 +2691,7 @@
 		<monster name="Cliff Strider" x="0" y="0" z="4" spawntime="60" />
 	</spawn>
 	<spawn centerx="805" centery="1322" centerz="4" radius="1">
-		<monster name="Weeper" x="-1" y="0" z="4" spawntime="0" />
+		<monster name="Weeper" x="-1" y="0" z="4" spawntime="60" />
 		<monster name="Weeper" x="0" y="0" z="4" spawntime="60" />
 	</spawn>
 	<spawn centerx="827" centery="1322" centerz="4" radius="1">
@@ -25172,6 +25172,20 @@
 	<spawn centerx="497" centery="1067" centerz="11" radius="5">
 		<monster name="Demon" x="0" y="-4" z="11" spawntime="60" />
 	</spawn>
+	<spawn centerx="1048" centery="1070" centerz="11" radius="5">
+		<monster name="Treiner" x="3" y="-2" z="11" spawntime="40" />
+		<monster name="Treiner" x="3" y="0" z="11" spawntime="40" />
+		<monster name="Treiner" x="3" y="2" z="11" spawntime="40" />
+		<monster name="Treiner" x="-5" y="4" z="11" spawntime="40" />
+		<monster name="Treiner" x="-3" y="4" z="11" spawntime="40" />
+		<monster name="Treiner" x="3" y="4" z="11" spawntime="40" />
+	</spawn>
+	<spawn centerx="1039" centery="1071" centerz="11" radius="5">
+		<monster name="Treiner" x="-2" y="-3" z="11" spawntime="40" />
+		<monster name="Treiner" x="-2" y="-1" z="11" spawntime="40" />
+		<monster name="Treiner" x="-2" y="1" z="11" spawntime="40" />
+		<monster name="Treiner" x="-2" y="3" z="11" spawntime="40" />
+	</spawn>
 	<spawn centerx="774" centery="1078" centerz="11" radius="5">
 		<monster name="Muddy Earth Elemental" x="-3" y="-3" z="11" spawntime="60" />
 		<monster name="Earth Elemental" x="-2" y="-3" z="11" spawntime="60" />
@@ -26059,6 +26073,14 @@
 	<spawn centerx="524" centery="1059" centerz="12" radius="5">
 		<monster name="Lost Soul" x="1" y="-4" z="12" spawntime="60" />
 	</spawn>
+	<spawn centerx="1048" centery="1070" centerz="12" radius="5">
+		<monster name="Treiner" x="3" y="-2" z="12" spawntime="40" />
+		<monster name="Treiner" x="3" y="0" z="12" spawntime="40" />
+		<monster name="Treiner" x="3" y="2" z="12" spawntime="40" />
+		<monster name="Treiner" x="-5" y="4" z="12" spawntime="40" />
+		<monster name="Treiner" x="-3" y="4" z="12" spawntime="40" />
+		<monster name="Treiner" x="3" y="4" z="12" spawntime="40" />
+	</spawn>
 	<spawn centerx="755" centery="1071" centerz="12" radius="25">
 		<monster name="Jagged Earth Elemental" x="-5" y="-25" z="12" spawntime="60" />
 		<monster name="Massive Earth Elemental" x="-12" y="-24" z="12" spawntime="60" />
@@ -26095,6 +26117,12 @@
 		<monster name="Muddy Earth Elemental" x="15" y="11" z="12" spawntime="60" />
 		<monster name="Muddy Earth Elemental" x="19" y="14" z="12" spawntime="60" />
 		<monster name="Massive Earth Elemental" x="21" y="19" z="12" spawntime="60" />
+	</spawn>
+	<spawn centerx="1039" centery="1071" centerz="12" radius="5">
+		<monster name="Treiner" x="-2" y="-3" z="12" spawntime="40" />
+		<monster name="Treiner" x="-2" y="-1" z="12" spawntime="40" />
+		<monster name="Treiner" x="-2" y="1" z="12" spawntime="40" />
+		<monster name="Treiner" x="-2" y="3" z="12" spawntime="40" />
 	</spawn>
 	<spawn centerx="491" centery="1090" centerz="12" radius="5">
 		<monster name="Juggernaut" x="-1" y="-5" z="12" spawntime="60" />
@@ -26531,6 +26559,20 @@
 		<monster name="Hero" x="0" y="2" z="13" spawntime="60" />
 		<monster name="Hero" x="1" y="2" z="13" spawntime="60" />
 	</spawn>
+	<spawn centerx="1048" centery="1070" centerz="13" radius="5">
+		<monster name="Treiner" x="3" y="-2" z="13" spawntime="40" />
+		<monster name="Treiner" x="3" y="0" z="13" spawntime="40" />
+		<monster name="Treiner" x="3" y="2" z="13" spawntime="40" />
+		<monster name="Treiner" x="-5" y="4" z="13" spawntime="40" />
+		<monster name="Treiner" x="-3" y="4" z="13" spawntime="40" />
+		<monster name="Treiner" x="3" y="4" z="13" spawntime="40" />
+	</spawn>
+	<spawn centerx="1039" centery="1071" centerz="13" radius="5">
+		<monster name="Treiner" x="-2" y="-3" z="13" spawntime="40" />
+		<monster name="Treiner" x="-2" y="-1" z="13" spawntime="40" />
+		<monster name="Treiner" x="-2" y="1" z="13" spawntime="40" />
+		<monster name="Treiner" x="-2" y="3" z="13" spawntime="40" />
+	</spawn>
 	<spawn centerx="825" centery="1173" centerz="13" radius="5">
 		<monster name="Dwarf Guard" x="0" y="-1" z="13" spawntime="60" />
 	</spawn>
@@ -26848,6 +26890,20 @@
 	<spawn centerx="788" centery="1035" centerz="14" radius="5">
 		<monster name="Warlock" x="-1" y="0" z="14" spawntime="60" />
 		<monster name="Warlock" x="3" y="0" z="14" spawntime="60" />
+	</spawn>
+	<spawn centerx="1048" centery="1070" centerz="14" radius="5">
+		<monster name="Treiner" x="3" y="-2" z="14" spawntime="40" />
+		<monster name="Treiner" x="3" y="0" z="14" spawntime="40" />
+		<monster name="Treiner" x="3" y="2" z="14" spawntime="40" />
+		<monster name="Treiner" x="-5" y="4" z="14" spawntime="40" />
+		<monster name="Treiner" x="-3" y="4" z="14" spawntime="40" />
+		<monster name="Treiner" x="3" y="4" z="14" spawntime="40" />
+	</spawn>
+	<spawn centerx="1039" centery="1071" centerz="14" radius="5">
+		<monster name="Treiner" x="-2" y="-3" z="14" spawntime="40" />
+		<monster name="Treiner" x="-2" y="-1" z="14" spawntime="40" />
+		<monster name="Treiner" x="-2" y="1" z="14" spawntime="40" />
+		<monster name="Treiner" x="-2" y="3" z="14" spawntime="40" />
 	</spawn>
 	<spawn centerx="821" centery="1168" centerz="14" radius="5">
 		<monster name="Dwarf Guard" x="0" y="0" z="14" spawntime="60" />
@@ -27208,6 +27264,20 @@
 	</spawn>
 	<spawn centerx="376" centery="1032" centerz="15" radius="5">
 		<monster name="Dragon Lord" x="3" y="1" z="15" spawntime="60" />
+	</spawn>
+	<spawn centerx="1048" centery="1070" centerz="15" radius="5">
+		<monster name="Treiner" x="3" y="-2" z="15" spawntime="40" />
+		<monster name="Treiner" x="3" y="0" z="15" spawntime="40" />
+		<monster name="Treiner" x="3" y="2" z="15" spawntime="40" />
+		<monster name="Treiner" x="-5" y="4" z="15" spawntime="40" />
+		<monster name="Treiner" x="-3" y="4" z="15" spawntime="40" />
+		<monster name="Treiner" x="3" y="4" z="15" spawntime="40" />
+	</spawn>
+	<spawn centerx="1039" centery="1071" centerz="15" radius="5">
+		<monster name="Treiner" x="-2" y="-3" z="15" spawntime="40" />
+		<monster name="Treiner" x="-2" y="-1" z="15" spawntime="40" />
+		<monster name="Treiner" x="-2" y="1" z="15" spawntime="40" />
+		<monster name="Treiner" x="-2" y="3" z="15" spawntime="40" />
 	</spawn>
 	<spawn centerx="800" centery="1188" centerz="15" radius="5">
 		<monster name="Dwarf Geomancer" x="-1" y="0" z="15" spawntime="60" />
