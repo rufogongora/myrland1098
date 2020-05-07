@@ -201,9 +201,9 @@ function onUse(cid, item, frompos, item2, topos)
 		elseif item.uid == 13009 then
 			queststatus = getPlayerStorageValue(cid,13005)
 			if queststatus == -1 then
-				doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"You have found a Umbral Bow.")
-				doPlayerAddItem(cid,18453,1)
-				setPlayerStorageValue(cid,22417,1)
+				doPlayerSendTextMessage(cid,24,"You have found a Umbral Bow.")
+				doPlayerAddItem(cid,22417,1)
+				setPlayerStorageValue(cid,13005,1)
 			else
 				doPlayerSendTextMessage(cid,MESSAGE_INFO_DESCR,"It is empty.")
 			end

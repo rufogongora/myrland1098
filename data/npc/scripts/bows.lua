@@ -1,115 +1,104 @@
 local keywordHandler = KeywordHandler:new()
 local npcHandler = NpcHandler:new(keywordHandler)
 NpcSystem.parseParameters(npcHandler)
-
-function onCreatureAppear(cid)            npcHandler:onCreatureAppear(cid)            end
-function onCreatureDisappear(cid)        npcHandler:onCreatureDisappear(cid)            end
-function onCreatureSay(cid, type, msg)    npcHandler:onCreatureSay(cid, type, msg)    end
-function onThink()                        npcHandler:onThink()    end
-
--- Storage IDs --
-
-fhunter        = 22003 
-shunter        = 22004 
-pscrossbow     = 60163 
-
-newaddon    = 'Ah, right! The hooded cloak or winged tiara! Here you go.'
-noitems        = 'You do not have all the required items.'
-noitems2    = 'You do not have all the required items or you do not have the outfit, which by the way, is a requirement for this addon.'
-already        = 'It seems you already have this addon, don\'t you try to mock me son!'
-
-function ElaneCrossbowStorage(cid, message, keywords, parameters, node)
-
+ 
+function onCreatureAppear(cid)                      npcHandler:onCreatureAppear(cid)                     end
+function onCreatureDisappear(cid)                        npcHandler:onCreatureDisappear(cid)             end
+function onCreatureSay(cid, type, msg)           npcHandler:onCreatureSay(cid, type, msg)        end
+function onThink()                                                       npcHandler:onThink()                                            end
+-- npcHandler:setMessage(MESSAGE_GREET, "Hey |PLAYERNAME|. Can you help me? If you help me, I'll reward you with some addons! Say {addons} or {help} if you don't know what to do.")
+function playerBuyAddonNPC(cid, message, keywords, parameters, node)
     if(not npcHandler:isFocused(cid)) then
-        return false
+            return false
     end
-	   
-    if getPlayerStorageValue(cid,pscrossbow ) == -1 then       
-            setPlayerStorageValue(cid,pscrossbow , 1)
-			npcHandler:say('Brilliant! I will wait for you to return with mine crossbow.', cid)
-    else
-        npcHandler:say('I alrealy give you information about mine crossbow.')
-    
-	   end
+    if (parameters.confirm ~= true) and (parameters.decline ~= true) then
+            if(getPlayerPremiumDays(cid) == 0) and (parameters.premium == true) then
+                    npcHandler:say('Sorry, this addon is just for Premium Players!', cid)
+                    npcHandler:resetNpc()
+                    return true
+            end
+            if (getPlayerStorageValue(cid, parameters.storageID) ~= -1) then
+                    npcHandler:say('You already have that!', cid)
+                    npcHandler:resetNpc()
+                    return true
+            end
+            local itemsTable = parameters.items
+            local items_list = ''
+            if table.maxn(itemsTable) > 0 then
+                    for i = 1, table.maxn(itemsTable) do
+                            local item = itemsTable[i]
+                            items_list = items_list .. item[2] .. ' ' .. getItemName(item[1])
+                            if i ~= table.maxn(itemsTable) then
+                                    items_list = items_list .. ', '
+                            end
+                    end
+            end
+            local text = ''
+            if (parameters.cost > 0) and table.maxn(parameters.items) then
+                    text = items_list .. ' and ' .. parameters.cost .. ' gp'
+            elseif (parameters.cost > 0) then
+                    text = parameters.cost .. ' gp'
+            elseif table.maxn(parameters.items) then
+                    text = items_list
+            end
+            npcHandler:say('Did you bring me ' .. text .. ' for ' .. keywords[1] .. '?', cid)
+            return true
+    elseif (parameters.confirm == true) then
+            local addonNode = node:getParent()
+            local addoninfo = addonNode:getParameters()
+            local items_number = 0
+            if table.maxn(addoninfo.items) > 0 then
+                    for i = 1, table.maxn(addoninfo.items) do
+                            local item = addoninfo.items[i]
+                            if (getPlayerItemCount(cid,item[1]) >= item[2]) then
+                                    items_number = items_number + 1
+                            end
+                    end
+            end
+            if(getPlayerMoney(cid) >= addoninfo.cost) and (items_number == table.maxn(addoninfo.items)) then
+                    doPlayerRemoveMoney(cid, addoninfo.cost)
+                    if table.maxn(addoninfo.items) > 0 then
+                            for i = 1, table.maxn(addoninfo.items) do
+                                    local item = addoninfo.items[i]
+                                    doPlayerRemoveItem(cid,item[1],item[2])
+                            end
+                    end
+                    doPlayerAddOutfit(cid, addoninfo.outfit_male, addoninfo.addon)
+                    doPlayerAddOutfit(cid, addoninfo.outfit_female, addoninfo.addon)
+                    setPlayerStorageValue(cid,addoninfo.storageID,1)
+                    npcHandler:say('Here you are.', cid)
+            else
+                    npcHandler:say('You dont have the required items or money!', cid)
+            end
+            npcHandler:resetNpc()
+            return true
+    elseif (parameters.decline == true) then
+            npcHandler:say('Not interested? Maybe other addon?', cid)
+            npcHandler:resetNpc()
+            return true
     end
-
-
-function HunterFirst(cid, message, keywords, parameters, node)
-
-    if(not npcHandler:isFocused(cid)) then
-        return false
-    end
-
-    if isPremium(cid) then
-    addon = getPlayerStorageValue(cid,fhunter)
-    if addon == -1 then
-        if getPlayerItemCount(cid,5947) >= 1 and getPlayerItemCount(cid,5876) >= 100 and getPlayerItemCount(cid,5948) >= 100 and getPlayerItemCount(cid,5891) >= 5 and getPlayerItemCount(cid,5887) >= 1 and getPlayerItemCount(cid,5888) >= 1 and getPlayerItemCount(cid,5889) >= 1 then
-        if doPlayerRemoveItem(cid,5947,1) and doPlayerRemoveItem(cid,5876,100) and doPlayerRemoveItem(cid,5948,100) and doPlayerRemoveItem(cid,5891,5) and doPlayerRemoveItem(cid,5887,1) and doPlayerRemoveItem(cid,5888,1) and doPlayerRemoveItem(cid,5889,1) then
-            npcHandler:say('Ah, right! The hooded cloak or winged tiara! Here you go.')
-             
-            doSendMagicEffect(getCreaturePosition(cid), 13)
-			setPlayerStorageValue(cid,fhunter,1)
-			if getPlayerSex(cid) == 1 then 
-            doPlayerAddOutfit(cid, 129, 1)
-			elseif getPlayerSex(cid) == 0 then
-            doPlayerAddOutfit(cid, 137, 2)
-        end    
-        end
-        else
-            selfSay(noitems)
-        end
-    else
-        selfSay(already)
-    end
-    end
-
+    return false
 end
-
-function HunterSecond(cid, message, keywords, parameters, node)
-
-    if(not npcHandler:isFocused(cid)) then
-        return false
-    end
-
-    if isPremium(cid) then
-    addon = getPlayerStorageValue(cid,shunter)
-    if addon == -1 then
-        if getPlayerItemCount(cid,5875) >= 1 then
-        if doPlayerRemoveItem(cid,5875,1) then
-            npcHandler:say('Ah, right! The sniper gloves! Here you go.')
-            doSendMagicEffect(getCreaturePosition(cid), 13)
-			setPlayerStorageValue(cid,shunter,1)
-			if getPlayerSex(cid) == 1 then 
-            doPlayerAddOutfit(cid, 129, 2)
-			elseif getPlayerSex(cid) == 0 then
-            doPlayerAddOutfit(cid, 137, 1)
-        end    
-        end
-        else
-            selfSay(noitems)
-        end
-    else
-        selfSay(already)
-    end
-    end
-
-end
+local noNode = KeywordNode:new({'no'}, playerBuyAddonNPC, {decline = true})
+local yesNode = KeywordNode:new({'yes'}, playerBuyAddonNPC, {confirm = true})
 
 
-node1 = keywordHandler:addKeyword({'hooded cloak'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'To get hooded cloak you need give me an engraved crossbow, 100 lizard leathers, 100 red dragon leather, 5 enchanted chicken wings, royal steel, hell steel and draconian steel. Do you have them with you?'})
-node1:addChildKeyword({'yes'}, HunterFirst, {})
-node1:addChildKeyword({'no'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Alright then. Come back when you got all neccessary items.', reset = true})
 
-node2 = keywordHandler:addKeyword({'winged tiara'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'To get winged tiara you need give me an engraved crossbow, 100 lizard leathers, 100 red dragon leather, 5 enchanted chicken wings, royal steel, hell steel and draconian steel. Do you have them with you?'})
-node2:addChildKeyword({'yes'}, HunterFirst, {})
-node2:addChildKeyword({'no'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Alright then. Come back when you got all neccessary items.', reset = true})
 
-node3 = keywordHandler:addKeyword({'sniper gloves'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'To get sniper gloves you need give me a pair of sniper gloves. Do you have them with you?'})
-node3:addChildKeyword({'yes'}, HunterSecond, {})
-node3:addChildKeyword({'no'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Alright then. Come back when you got all neccessary items.', reset = true})
 
-node4 = keywordHandler:addKeyword({'crossbow'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Please find my crossbow. It has my name engraved on it and is very special to me. Do you ready for it?'})
-node4:addChildKeyword({'yes'}, ElaneCrossbowStorage, {})
-node4:addChildKeyword({'no'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'Alright then. Come back when you ready.', reset = true})
 
+
+ 
+-- Afflicted (done)
+local outfit_node = keywordHandler:addKeyword({'first hunter addon'}, playerBuyAddonNPC, {premium = false, cost = 0, items = {{5875,1}}, outfit_female = 137, outfit_male = 129, addon = 2, storageID = 15551})
+outfit_node:addChildKeywordNode(yesNode)
+outfit_node:addChildKeywordNode(noNode)
+local outfit_node = keywordHandler:addKeyword({'second hunter addon'}, playerBuyAddonNPC, {premium = false, cost = 0, items = {{5947,1}, {5889, 1}, {5887,1}, {5891, 5}, {5948, 100}, {5876, 100}}, outfit_female = 137, outfit_male = 129, addon = 1, storageID = 15552})
+outfit_node:addChildKeywordNode(yesNode)
+outfit_node:addChildKeywordNode(noNode)
+
+
+keywordHandler:addKeyword({'addons'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'I can give you soil guardian , crystal warlord, entrepreneur, insectoid, afflicted, demon, deepling, wayfarer, elementalist.'})
+keywordHandler:addKeyword({'help'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'To buy the first addon say \'first NAME addon\', for the second addon say \'second NAME addon\'.'})
+ 
 npcHandler:addModule(FocusModule:new())

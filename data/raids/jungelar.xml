@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+	<!-- Message broadcast -->
+	<!-- Broadcast types: warning, event, default, description, smallstatus, blueconsole, redconsole -->
+	<announce delay="1000" type="event" message="La jungla se estremece..." />
+	<announce delay="25000" type="event" message="Es una invasion al norte de jungelar, la venganza de tiquanda esta aqui!" />
+
+	<!-- Area spawns - you can specify raid area or use range value -->
+	<areaspawn delay="25000" fromx="950" fromy="619" fromz="7" tox="975" toy="645" toz="7">
+		<monster name="Carniphila" amount="35" /><!-- Specified amount -->		
+		<monster name="Tiquandas Revenge" amount="2" /><!-- Specified amount -->/
+	</areaspawn>
+
+	
+
+</raid>
