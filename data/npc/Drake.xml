@@ -27,5 +27,24 @@
 	volcanic rod,2185,2000;
 	moonlight rod,2186,1000;
 	snakebite rod,2182,1" />
+
+
+	<parameter key="shop_sellable" value="
+            wand of vortex, 2190, 100;
+			wand of dragonbreath, 2191, 200;
+			wand of decay, 2188, 1000;
+			wand of draconia, 8921, 1500;
+			wand of cosmic energy, 2189, 2000;
+			wand of inferno, 2187, 3000;
+			wand of starstorm, 8920, 3600;
+			wand of voodoo, 8922, 4400;
+			snakebite rod,2182,100;
+			moonlight rod,2186,200;
+			necrotic rod,2185,1000;
+			northwind rod,8911,1500;
+			terra rod,2181,2000;
+			hailstorm rod,2183,3000;
+			springsprout rod,8912,3600;
+			underworld rod,8910,4400"/>
 	</parameters>
 </npc>
