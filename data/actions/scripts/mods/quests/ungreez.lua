@@ -32,13 +32,15 @@ local chamber_end = {x=764, y=953, z=12}
 function onUse(cid, item, frompos, item2, topos)
     if item.uid == switch_uid then
         if item.itemid == switch_id1 then
-            local player1 = getTopCreature(player1_source)
-            local player2 = getTopCreature(player2_source)
-            local player3 = getTopCreature(player3_source)
-            local player4 = getTopCreature(player4_source)
-            
-            if isPlayer(player1.uid) == TRUE and isPlayer(player2.uid) == TRUE and isPlayer(player3.uid) == TRUE and isPlayer(player4.uid) == TRUE then
-            
+            local player1 = Tile(player1_source):getTopCreature()
+		local player2 = Tile(player2_source):getTopCreature()
+		local player3 = Tile(player3_source):getTopCreature()
+		local player4 = Tile(player4_source):getTopCreature()
+
+	   
+
+		if (player1 and player1:isPlayer()) and (player2 and player2:isPlayer()) and (player3 and player3:isPlayer()) and (player4 and player4:isPlayer()) then
+		
                 if getPlayerLevel(player1.uid) >= required_level and getPlayerLevel(player2.uid) >= required_level and
                    getPlayerLevel(player3.uid) >= required_level and getPlayerLevel(player4.uid) >= required_level then
                    
