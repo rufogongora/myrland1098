@@ -28,6 +28,8 @@
 	<monster name="Lucifer" file="custom/Lucifer.xml"/>
 	<monster name="Jestera" file="custom/jestera.xml"/>
 	<monster name="Jester" file="custom/jester.xml"/>
+	<monster name="Demonix" file="custom/demonix.xml"/>
+	
 
 
 	<!-- Amazons -->

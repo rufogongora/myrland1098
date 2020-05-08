@@ -72,7 +72,7 @@ function onUse(cid, item, frompos, item2, topos)
    		queststatus = getPlayerStorageValue(cid,900000)
    		if queststatus == -1 then
    			doCreatureSay(cid,"Ahora tienes tu Full Yalaharian outfit.", TALKTYPE_ORANGE_1)
-                           doPlayerAddOutfit(cid, 325, 2) 
+						doPlayerAddOutfit(cid, 325, 2) 
                         doPlayerAddOutfit(cid, 324, 2) 
                         doPlayerAddOutfit(cid, 325, 1) 
                         doPlayerAddOutfit(cid, 324, 1) 
