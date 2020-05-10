@@ -95,7 +95,7 @@ local outfit_node = keywordHandler:addKeyword({'second knight addon'}, playerBuy
     outfit_node:addChildKeywordNode(noNode)
 
 
-keywordHandler:addKeyword({'addons'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'I can give you citizen, hunter, knight, mage, nobleman, summoner, warrior, barbarian, druid, wizard, oriental, pirate, assassin, beggar, shaman, norseman, nighmare, jester, yalaharian and brotherhood addons.'})
+keywordHandler:addKeyword({'addons'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'I can give you first and second knight addon.'})
 keywordHandler:addKeyword({'help'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'To buy the first addon say \'first NAME addon\', for the second addon say \'second NAME addon\'.'})
 
 npcHandler:addModule(FocusModule:new())
