@@ -29,7 +29,13 @@
 	<monster name="Jestera" file="custom/jestera.xml"/>
 	<monster name="Jester" file="custom/jester.xml"/>
 	<monster name="Demonix" file="custom/demonix.xml"/>
-	
+	<monster name="Werebadger" file="custom/werebadger.xml"/>
+	<monster name="Wereboar" file="custom/wereboar.xml"/>
+	<monster name="Wereboar" file="custom/werebear.xml"/>
+	<monster name="Vicious Squire" file="custom/vicious squire.xml"/>
+	<monster name="Vile Grandmaster" file="custom/vile grandmaster.xml"/>
+	<monster name="Renegade Knight" file="custom/renegade knight.xml"/>
+
 
 
 	<!-- Amazons -->
