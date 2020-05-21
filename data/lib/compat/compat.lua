@@ -302,7 +302,7 @@ setCombatFormula = Combat.setFormula
 setCombatParam = Combat.setParameter
 
 Combat.setCondition = function(...)
-	print("[Warning] Function Combat.setCondition was renamed to Combat.addCondition and will be removed in the future")
+	-- print("[Warning] Function Combat.setCondition was renamed to Combat.addCondition and will be removed in the future")
 	Combat.addCondition(...)
 end
 

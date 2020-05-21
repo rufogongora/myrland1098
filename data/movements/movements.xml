@@ -5,6 +5,7 @@
 	<movevent event="AddItem" tileitem="1" fromaid="23300" toaid="23400"  script="mods/tools/football.lua"/>
 	<movevent event="StepIn" fromaid="23300" toaid="23400"  script="mods/tools/football.lua"/>
 	<movevent event="StepIn" actionid="40045" script="mods/Quests/items.lua" />
+	<movevent event="StepIn" actionid="24837" script="mods/Quests/ferumbrasportal.lua" />
 
 	<!-- torcer -->
 	<movevent event="AddItem" tileitem="1" actionid="5121"  script="mods/tools/torcer.lua"/>
