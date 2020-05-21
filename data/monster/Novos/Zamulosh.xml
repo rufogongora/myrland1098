@@ -16,7 +16,7 @@
 		<flag runonhealth="0" />
 	</flags>
 	<script>
-   <event name="Zamulosh"/>
+   		<event name="Inquisition"/>
 	</script>
 	<attacks>
 		<attack name="melee" interval="2000" skill="200" attack="250" />

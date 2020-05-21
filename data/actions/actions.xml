@@ -171,6 +171,11 @@
 	<action itemid="15572" script="mods/other/randomitems.lua" />
 	<action itemid="18215" script="mods/other/randomitems.lua" />
 
+	<!-- ferumbras ascencion -->
+	<action fromaid="23470" toaid="23476" script="mods/quests/ferumbraslever.lua" />
+	<action actionid="23480" script="mods/quests/finalferumbraslever.lua" />
+	<action itemid="24838" script="mods/quests/teleportationrod.lua" />
+
 
 <!-- AQUI TERMINAN LOS MODS -->
 	<!-- Enchanting -->
@@ -232,6 +237,7 @@
 	<action fromid="19691" toid="19692" script="other/decayto.lua" />
 	<action fromid="25545" toid="25546" script="other/decayto.lua" />
 	<action fromid="26098" toid="26099" script="other/decayto.lua" />
+	<action fromid="23496" toid="23500" script="other/decayto.lua" />
 
 	<!-- Food -->
 	<action itemid="2362" script="other/food.lua" />

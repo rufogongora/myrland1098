@@ -12,6 +12,13 @@ local config = {
         ["Satan"] = { { x = 1490, y = 1237, z = 10 }, { x = 1493, y = 1236, z = 10, stackpos = 1 } },
 		["Shaul"] = { { x = 598, y = 490, z = 12 }, { x = 584, y = 490, z = 11, stackpos = 1 } },
         ["Azerus"] = { {x = 981, y = 710, z = 9}, {x = 947, y = 710, z = 9, stackpos = 1} },
+        ["Plagirath"] = { {x = 1131, y = 836, z = 9}, {x = 1144, y = 790, z = 9, stackpos = 1} },
+        ["Mazoran"] = { {x = 1186, y = 836, z = 9}, {x = 1216, y = 786, z = 9, stackpos = 1} },
+        ["Zamulosh"] = { {x = 1159, y = 836, z = 9}, {x = 1182, y = 783, z = 9, stackpos = 1} },
+        ["Razzagorn"] = { {x = 1131, y = 858, z = 9}, {x = 1252, y = 782, z = 9, stackpos = 1} },
+        ["Ragiaz"] = { {x = 1159, y = 857, z = 9}, {x = 1157, y = 745, z = 9, stackpos = 1} },
+        ["Tarbaz"] = { {x = 1187, y = 858, z = 9}, {x = 1206, y = 751, z = 9, stackpos = 1} },
+        ["Shulgrax"] = { {x = 1159, y = 880, z = 9}, {x = 1255, y = 720, z = 9, stackpos = 1} },
 
     }
 }

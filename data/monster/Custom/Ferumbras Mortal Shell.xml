@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Ferumbras Mortal Shell" nameDescription="a ferumbras mortal shell" race="blood" experience="100000" speed="280">
+	<health now="300000" max="300000" />
+	<look type="229" corpse="5931" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="80" />
+		<flag runonhealth="275" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+	</flags>
+    <script>
+		<event name="FerumbrasDeath"/>
+	</script>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-1552" />
+        <attack name="death" interval="2000" chance="10" length="8" spread="0" min="-1700" max="-2000">
+			<attribute key="areaEffect" value="redspark" />
+		</attack>
+	</attacks>
+	<defenses armor="35" defense="35">
+		<defense name="healing" interval="2000" chance="15" min="450" max="5500">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+		<defense name="speed" interval="2000" chance="15" speedchange="340" duration="5000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element icePercent="-65" />
+		<element earthPercent="-65" />
+		<element holyPercent="-65" />
+        <element deathPercent="-65" />
+	</elements>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+        <immunity fire="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Insects!" />
+		<voice sentence="If you strike me down, I shall become more powerful than you could possibly imagine!" yell="1" />
+		<voice sentence="I'M STILL POWERFUL ENOUGH TO CRUSH YOU!" />
+	</voices>
+	<loot>
+		<item name="crystal coin" countmax="60" chance="32300" />
+		<item name="Velvet Mantle" chance="12000" />
+        <item name="Mastermind Shield" chance="12000" />
+        <item name="Blue Gem" chance="12000" />
+        <item name="Red Gem" chance="12000" />
+        <item name="Green Gem" chance="12000" />
+        <item name="Ferumbras' Amulet" chance="12000" />
+        <item name="Scroll of Ascension" chance="12000" />
+        <item name="Spellbook of Mind Control" chance="12000" />
+        <item name="Spellbook of Lost Souls" chance="12000" />
+        <item name="Glacier Kilt" chance="12000" />
+        <item name="Lightning Legs" chance="12000" />
+        <item name="Terra Legs" chance="12000" />
+        <item name="Magma Legs" chance="12000" />
+        <item name="Haunted Blade" chance="12000" />
+        <item name="Abyss Hammer" chance="12000" />
+        <item name="Berserker" chance="12000" />
+        <item name="Havoc Blade" chance="12000" />
+        <item name="Haunted Blade" chance="12000" />
+        <item name="Bloody Edge" chance="12000" />
+        <item name="Skullcrusher" chance="12000" />
+        <item name="Chaos Mace" chance="12000" />
+        <item name="Impaler" chance="12000" />
+        <item name="Jade Hammer" chance="12000" />
+        <item name="Demonrage Sword" chance="12000" />
+        <item name="Shadow Sceptre" chance="12000" />
+        <item name="Rift Bow" chance="12000" />
+        <item name="Rift Crossbow" chance="12000" />
+        <item name="Rift Shield" chance="12000" />
+        <item name="Rift Lamp" chance="12000" />
+        <item name="Rift Lance" chance="12000" />
+        <item name="Giant Shimmering Pearl" chance="12000" />
+        <item name="Emerald Bangle" chance="12000" />
+        <item name="Gold Ingot" chance="12000" />
+        <item name="Soul Orb" chance="12000" />
+        <item name="Golden Armor" chance="12000" />
+        <item name="Golden Legs" chance="12000" />
+        <item name="Runed Sword" chance="12000" />
+        <item name="Boots of Homecoming" chance="12000" />
+        <item name="Demonwing Axe" chance="12000" />
+        <item name="Ferumbras' Mana Keg" chance="12000" />
+        <item name="Spellscroll of Prophecies" chance="12000" />
+        <item name="Ornamented Axe" chance="12000" />
+        <item name="Divine Plate" chance="12000" />
+        <item name="Greenwood Coat" chance="12000" />
+        <item name="Death Gaze" chance="12000" />
+        <item name="Great Shield" chance="12000" />
+        <item name="Mysterious Scroll" chance="12000" />
+        <item name="Ferumbras' Hat" chance="12000" />
+        <item name="Ferumbras' Staff" chance="12000" />
+        <item name="Black Pearl" chance="12000" />
+        <item name="Rift Tapestry" chance="12000" />
+        <item name="Small Topaz" chance="12000" />
+        <item name="Phoenix Shield" chance="12000" />
+        <item name="Queen's Sceptre" chance="12000" />
+        <item name="Spellbook of Dark Mysteries" chance="12000" />
+        <item name="Demon Shield" chance="12000" />
+        <item name="Vile Axe" chance="12000" />
+        <item name="Great Axe" chance="12000" />
+        <item name="Magic Plate Armor" chance="12000" />
+        <item name="Obsidian Truncheon" chance="12000" />
+        <item name="Nightmare Blade" chance="12000" />
+        <item name="Emerald Sword" chance="12000" />
+	</loot>
+</monster>

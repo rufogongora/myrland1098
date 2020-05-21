@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monsters>
 	<!-- Myrland Custom -->
+	<monster name="Ascending Ferumbras" file="custom/Ascending Ferumbras.xml"/>
+	<monster name="Destabilized Ferumbras" file="custom/Destabilized Ferumbras.xml"/>
+	<monster name="Ferumbras Soul Splinter" file="custom/Ferumbras Soul Splinter.xml"/>
+	<monster name="Ferumbras Mortal Shell" file="custom/Ferumbras Mortal Shell.xml"/>
+
+	<monster name="Rift Invader" file="custom/Rift Invader.xml"/>
 	<monster name="treiner" file="treiner.xml"/>	
 	<monster name="Nightmare Scout" file="Custom/Nightmare Scout.xml"/>
 	<monster name="Behemoth2" file="Custom/behemoth2.xml"/>
@@ -31,17 +37,76 @@
 	<monster name="Demonix" file="custom/demonix.xml"/>
 	<monster name="Werebadger" file="custom/werebadger.xml"/>
 	<monster name="Wereboar" file="custom/wereboar.xml"/>
-	<monster name="Wereboar" file="custom/werebear.xml"/>
+	<monster name="Werebear" file="custom/werebear.xml"/>
 	<monster name="Vicious Squire" file="custom/vicious squire.xml"/>
 	<monster name="Vile Grandmaster" file="custom/vile grandmaster.xml"/>
 	<monster name="Renegade Knight" file="custom/renegade knight.xml"/>
+	<monster name="Ogre Brute" file="custom/Ogre Brute.xml"/>
+	<monster name="Ogre Savage" file="custom/Ogre Savage.xml"/>
+	<monster name="Ogre Shaman" file="custom/Ogre Shaman.xml"/>
+	<monster name="Clomp" file="custom/Clomp.xml"/>
 
 
+	<monster file="outlaws/glooth bandit.xml" name="Glooth Bandit"/>
+	<monster file="outlaws/glooth brigand.xml" name="Glooth Brigand"/>
 
 	<!-- Amazons -->
 	<monster name="Amazon" file="Amazons/amazon.xml" />
 	<monster name="Valkyrie" file="Amazons/valkyrie.xml" />
 
+	<monster name="Instable Breach Brood" file="Novos/Instable Breach BroodSummon.xml" />
+	<monster name="Instable Breach Brood" file="Novos/Instable Breach Brood.xml" />
+	<monster name="Breach Brood" file="Novos/Breach Brood.xml" />
+	<monster name="Instable Sparkion" file="Novos/Instable Sparkion.xml" />
+	<monster name="Dread Intruder" file="Novos/Dread Intruder.xml" />
+	<monster name="Dread IntruderSummon" file="Novos/Dread IntruderSummon.xml" />	   
+	<monster name="Reality Reaver" file="Novos/Reality Reaver.xml" />
+	<monster name="Spark of Destruction" file="Novos/Spark of Destruction.xml" />
+	<monster name="Charger" file="Novos/Charger.xml" />
+	<monster name="Sparkion" file="Novos/Sparkion.xml" />
+	<monster name="World Devourer" file="Novos/World Devourer.xml" />
+	<monster name="Eradicator" file="Novos/Eradicator.xml" />
+	<monster name="Eradicatorr" file="Novos/Eradicator1.xml" />
+	<monster name="Rupture" file="Novos/Rupture.xml" />
+	<monster name="The Rage" file="Novos/The Rage.xml" />
+	<monster name="The Hunger" file="Novos/The Hunger.xml" />
+	<monster name="Frenzy" file="Novos/Frenzy.xml" />
+	<monster name="Outburst" file="Novos/Outburst.xml" />
+	<monster name="Greed" file="Novos/Greed.xml" /> 
+	<monster name="Ogre Brute" file="Novos/Ogre Brute.xml" />
+	<monster name="Ogre Savage" file="Novos/Ogre Savage.xml" />
+	<monster name="Ogre Shaman" file="Novos/Ogre Shaman.xml" />
+	<monster name="Clomp" file="Novos/Clomp.xml" />
+	<monster name="Hellflayer" file="Novos/Hellflayer.xml" />
+	<monster name="Grimeleech" file="Novos/Grimeleech.xml" />
+	<monster name="Vexclaw" file="Novos/Vexclaw.xml" />
+	<monster name="Omnivora" file="Novos/Omnivora.xml" />
+	<!-- <monster name="Werebadger" file="Novos/Werebadger.xml" />
+	<monster name="Wereboar" file="Novos/Wereboar.xml" />
+	<monster name="Werebear" file="Novos/Werebear.xml" /> -->
+	<monster name="Despair" file="Novos/Despair.xml" />
+	<monster name="Dawnfire Asura" file="Novos/Dawnfire Asura.xml" />
+	<monster name="Midnight Asura" file="Novos/Midnight Asura.xml" />
+	<monster name="Sacred Snake" file="Novos/Sacred Snake.xml" />
+	<monster name="Disgusting Ooze" file="Novos/Disgusting Ooze.xml" />
+	<monster name="Professor Maxxen" file="Novos/Professor Maxxen.xml" />
+	<monster name="Glooth Slasher" file="Novos/Glooth Slasher.xml" />
+	<monster name="Glooth Trasher" file="Novos/Glooth Trasher.xml" />
+	<monster name="Vicious Squire" file="Novos/Vicious Squire.xml" />
+	<monster name="Renegade Knight" file="Novos/Renegade Knight.xml" />
+	<monster name="Vile Grandmaster" file="Novos/Vile Grandmaster.xml" />
+	<monster name="Rage Of Mazoran" file="Novos/Rage Of Mazoran.xml" />
+	<monster name="Plagirath" file="Novos/Plagirath.xml" />
+	<monster name="Mazoran" file="Novos/Mazoran.xml" />
+	<monster name="Ragiaz" file="Novos/Ragiaz.xml" />
+	<monster name="Zamulosh" file="Novos/Zamulosh.xml" />
+	<monster name="Zamulosh Summom" file="Novos/ZamuloshSummom.xml" />
+	<monster name="Guilt" file="Novos/Guilt.xml" />
+	<monster name="Shulgrax" file="Novos/Shulgrax.xml" />
+	<monster name="Tarbaz" file="Novos/Tarbaz.xml" />
+	<monster name="Razzagorn" file="Novos/Razzagorn.xml" />
+	<monster name="The Shatterer" file="Novos/The Shatterer.xml" />	   
+	<monster name="Death Dragon" file="Novos/Death Dragon.xml" />
 	<!-- <monster name="Instable Breach Brood" file="Novos/Instable Breach BroodSummon.xml" />
 	<monster name="Instable Breach Brood" file="Novos/Instable Breach Brood.xml" />
 	<monster name="Breach Brood" file="Novos/Breach Brood.xml" />
@@ -423,8 +488,6 @@
 	<monster name="Tromphonyte" file="Bosses/tromphonyte.xml" />
 	<monster name="Zanakeph" file="Bosses/zanakeph.xml" />
 	<monster name="Zarabustor" file="Bosses/zarabustor.xml" />
-	<monster name="Glooth Brigand" file="Bosses/glooth brigand.xml" />
-	<monster name="Glooth Bandit" file="Bosses/glooth bandit.xml" />
 	<monster name="Lisa" file="Bosses/lisa.xml" />
 
 	<!-- Canines -->

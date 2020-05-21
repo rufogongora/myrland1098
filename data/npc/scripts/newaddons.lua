@@ -161,9 +161,17 @@ local outfit_node = keywordHandler:addKeyword({'first demon addon'}, playerBuyAd
 local outfit_node = keywordHandler:addKeyword({'second demon addon'}, playerBuyAddonNPC, {premium = false, cost = 0, items = {{6550,6666}}, outfit_female = 542, outfit_male = 541, addon = 2, storageID = 10061})
     outfit_node:addChildKeywordNode(yesNode)
     outfit_node:addChildKeywordNode(noNode)
+
+            -- demon (done)(custom)
+local outfit_node = keywordHandler:addKeyword({'first rift warrior addon'}, playerBuyAddonNPC, {premium = false, cost = 0, items = {{25172, 1}}, outfit_female = 845, outfit_male = 846, addon = 1, storageID = 10062})
+        outfit_node:addChildKeywordNode(yesNode)
+        outfit_node:addChildKeywordNode(noNode)
+local outfit_node = keywordHandler:addKeyword({'second rift warrior addon'}, playerBuyAddonNPC, {premium = false, cost = 0, items = {{25377, 1}}, outfit_female = 845, outfit_male = 846, addon = 2, storageID = 10063})
+        outfit_node:addChildKeywordNode(yesNode)
+        outfit_node:addChildKeywordNode(noNode)
  
 
-keywordHandler:addKeyword({'addons'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'I can give you soil guardian , crystal warlord, entrepreneur, insectoid, afflicted, demon, deepling, wayfarer, elementalist.'})
+keywordHandler:addKeyword({'addons'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'I can give you soil guardian , crystal warlord, entrepreneur, insectoid, afflicted, demon, deepling, wayfarer, elementalist, rift warrior.'})
 keywordHandler:addKeyword({'help'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'To buy the first addon say \'first NAME addon\', for the second addon say \'second NAME addon\'.'})
  
 npcHandler:addModule(FocusModule:new())
