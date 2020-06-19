@@ -1500,7 +1500,7 @@ doPlayerTakeItem(cid,3967,5) == true then
                     selfSay('Did you bring me the cobrafang dagger?', cid) 
                     talk_state = 37 
                 else 
-                    selfSay('I need a Cobrfang dagger for this addon.', cid) 
+                    selfSay('I need a Cobrafang dagger for this addon.', cid) 
                     talk_state = 0 
                 end 
             else 

@@ -21533,15 +21533,15 @@
 	<spawn centerx="708" centery="1037" centerz="9" radius="5">
 		<monster name="Hellspawn" x="-4" y="4" z="9" spawntime="60" />
 	</spawn>
-	<spawn centerx="1000" centery="1038" centerz="9" radius="5">
-		<monster name="Carrion Worm" x="-1" y="-3" z="9" spawntime="60" />
-		<monster name="Rotworm" x="5" y="0" z="9" spawntime="60" />
-	</spawn>
 	<spawn centerx="1197" centery="1038" centerz="9" radius="1">
 		<monster name="wereboar" x="0" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="1270" centery="1038" centerz="9" radius="1">
 		<monster name="werebadger" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1000" centery="1039" centerz="9" radius="5">
+		<monster name="Rotworm" x="5" y="-1" z="9" spawntime="60" />
+		<monster name="Carrion Worm" x="-1" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="1066" centery="1039" centerz="9" radius="5">
 		<monster name="Rotworm" x="5" y="-2" z="9" spawntime="60" />

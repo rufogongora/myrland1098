@@ -127,7 +127,7 @@ function onUse(cid, item, frompos, item2, topos)
 		setPlayerStorageValue(cid,quest_id,1)
 		elseif item.uid == 5004 then
 		doPlayerSendTextMessage(cid,22,"You have found a present.")
-		doPlayerAddItem(cid,2326,1)
+		doPlayerAddItem(cid,2421,1)
 		setPlayerStorageValue(cid,quest_id,1)
 		end
 			else

@@ -9,3 +9,5 @@ dofile('data/lib/debugging/dump.lua')
 
 --mods for myrland
 dofile('data/lib/mods/quests.lua')
+
+dofile('data/lib/mods/andicasarenalib.lua')
