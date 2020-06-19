@@ -46,6 +46,17 @@
 	<monster name="Ogre Shaman" file="custom/Ogre Shaman.xml"/>
 	<monster name="Clomp" file="custom/Clomp.xml"/>
 
+	<!-- Andicas Arena -->
+	<monster name="Arena Wolf" file="custom/arena/arenawolf.xml" />
+	<monster name="Arena Bear" file="custom/arena/arenabear.xml" />
+	<monster name="Arena Warrior" file="custom/arena/arenawarrior.xml" />
+	<monster name="Arena Mino" file="custom/arena/arenamino.xml" />
+	<monster name="Arena Dragon" file="custom/arena/arenadragon.xml" />
+	<monster name="Arena Ogre" file="custom/arena/arenaogre.xml" />
+	<monster name="Arena Gnome" file="custom/arena/arenagnome.xml" />
+	<monster name="Arena Fury" file="custom/arena/arenafury.xml" />
+	<monster name="Arena Lizard" file="custom/arena/arenalizard.xml" />
+	<monster name="Arena Demon" file="custom/arena/arenademon.xml" />
 
 	<monster file="outlaws/glooth bandit.xml" name="Glooth Bandit"/>
 	<monster file="outlaws/glooth brigand.xml" name="Glooth Brigand"/>

@@ -285,7 +285,7 @@
 	<action itemid="486" script="other/snowheap.lua" />
 	<action fromid="1209" toid="1214" script="other/doors.lua" />
 	<action fromid="1219" toid="1262" script="other/doors.lua" />
-	<action itemid="1369" script="other/teleport.lua" />
+	<!-- <action itemid="1369" script="other/teleport.lua" /> -->
 	<action itemid="1386" script="other/teleport.lua" />
 	<action fromid="1539" toid="1542" script="other/doors.lua" />
 	<action fromid="1728" toid="1731" script="other/watch.lua" />
